@@ -1,0 +1,10 @@
+"../../../sdram/source/pll1.v"	1
+"../../../sdram/source/control_interface.v"	1
+"../../../sdram/source/altclklock.v"	2
+"../../../sdram/source/params.v"	1
+"i://csce611//mips_sram_s3//sim_src//board//sdram//mt48lc8m16a2/mt48lc8m16a2.v"	1
+"../../../sdram/source/sdr_data_path.v"	1
+"i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v"	2
+"../../../sdram/source/command.v"	1
+"../../../sdram/source/sdr_sdram.v"	1
+"../../../sdram/source/compile_all.v"	1

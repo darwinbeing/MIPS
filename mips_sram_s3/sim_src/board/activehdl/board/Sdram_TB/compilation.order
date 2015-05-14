@@ -1,0 +1,8 @@
+.\..\..\..\Multi_Sdram\command.v
+.\..\..\..\Multi_Sdram\control_interface.v
+.\..\..\..\Multi_Sdram\mt48lc8m16a2.v
+.\..\..\..\Multi_Sdram\Multi_Sdram.v
+.\..\..\..\Multi_Sdram\sdr_data_path.v
+.\..\..\..\Multi_Sdram\Sdram_Controller.v
+.\..\..\..\Multi_Sdram\Sdram_Multiplexer.v
+.\..\..\..\Multi_Sdram\Sdram_TB.v

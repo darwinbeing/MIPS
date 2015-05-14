@@ -1,0 +1,140 @@
+-- Copyright (C) 1991-2010 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+
+-- Quartus II generated Memory Initialization File (.mif)
+
+WIDTH=8;
+DEPTH=2048;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+0 : 3c;
+1 : 27;
+2 : 24;
+3 : 03;
+4 : 00;
+5 : 08;
+6 : 00;
+7 : 00;
+8 : 3c;
+9 : 27;
+10 : 03;
+11 : 27;
+12 : af;
+13 : 03;
+14 : af;
+15 : af;
+16 : af;
+17 : af;
+18 : 8f;
+19 : 8f;
+20 : 00;
+21 : 14;
+22 : 8f;
+23 : 8f;
+24 : 00;
+25 : 00;
+26 : 00;
+27 : 00;
+28 : 00;
+29 : af;
+30 : 8f;
+31 : 00;
+32 : 8f;
+33 : 00;
+34 : 8c;
+35 : 8f;
+36 : 00;
+37 : 10;
+38 : 8f;
+39 : 24;
+40 : af;
+41 : 10;
+42 : 8f;
+43 : 00;
+44 : 8f;
+45 : 00;
+46 : 8c;
+47 : 8f;
+48 : 00;
+49 : 10;
+50 : 8f;
+51 : 24;
+52 : af;
+53 : 10;
+54 : 8f;
+55 : af;
+56 : 10;
+57 : 8f;
+58 : 24;
+59 : 00;
+60 : af;
+61 : 8f;
+62 : 03;
+63 : 8f;
+64 : 27;
+65 : 03;
+66 : 3c;
+67 : 27;
+68 : 03;
+69 : 27;
+70 : af;
+71 : af;
+72 : 03;
+73 : af;
+74 : af;
+75 : 8f;
+76 : 28;
+77 : 10;
+78 : 8f;
+79 : 00;
+80 : 27;
+81 : 00;
+82 : 8f;
+83 : ac;
+84 : 8f;
+85 : 24;
+86 : af;
+87 : 10;
+88 : 27;
+89 : 00;
+90 : 24;
+91 : 24;
+92 : 3c;
+93 : 03;
+94 : 8f;
+95 : 00;
+96 : 03;
+97 : 00;
+98 : 8f;
+99 : af;
+100 : 00;
+101 : 03;
+102 : 8f;
+103 : 8f;
+104 : 27;
+105 : 03;
+106 : 00;
+107 : 00;
+108 : 00;
+109 : 80;
+110 : 00;
+111 : 00;
+112 : 00;
+113 : 00;
+114 : 00;
+115 : 00;
+END;

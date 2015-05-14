@@ -1,0 +1,18 @@
+2c2
+< // instance=/TestBench/DUT_BEH/Processor/GPR
+---
+> // instance=/mycomputer_tb/u_0/u_0/u_1/data
+4c4
+<  0: 00000000
+---
+>  0: XXXXXXXX
+27c27
+< 17: ffffffff
+---
+> 17: 000000FF
+34,35c34,35
+< 1e: 00000074
+< 1f: 00000000
+---
+> 1e: XXXXXXXX
+> 1f: 000000FF

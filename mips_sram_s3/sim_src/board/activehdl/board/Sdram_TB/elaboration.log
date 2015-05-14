@@ -1,0 +1,16 @@
+elbread.dll ver. 1.0.5.325 Thu Oct 21 01:17:29 2010
+
+
+-----------------------------
+Module             | Library
+-----------------------------
+SDRAM_TB           | sdram_tb
+SDRAM_Top          | sdram_tb
+Multi_Sdram        | sdram_tb
+mt48lc8m16a2       | sdram_tb
+Sdram_Multiplexer  | sdram_tb
+Sdram_Controller   | sdram_tb
+control_interface  | sdram_tb
+command            | sdram_tb
+sdr_data_path      | sdram_tb
+-----------------------------

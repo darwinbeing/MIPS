@@ -1,0 +1,27 @@
+# do mips_test.do 
+# /share/jinz/MIPS/mips_sram_s3
+# /usr/local/3rdparty/csce611/Altera_Sim_Lib/verilog_libs
+# /share/jinz/MIPS/mips_sram_s3/proj
+# /share/jinz/MIPS/mips_sram_s3/sim_src
+# /share/jinz/MIPS/mips_sram_s3/sim_src/memory
+# /share/jinz/MIPS/mips_sram_s3/sim_src/rtl
+# /share/jinz/MIPS/mips_sram_s3/sim_src/behav
+# /share/jinz/MIPS/mips_sram_s3/sim_src/include
+# /share/jinz/MIPS/mips_sram_s3/sim_src/testbench
+# /share/jinz/MIPS/mips_sram_s3/sim_src/test_data
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module CheckTwoModels
+# ** Error: /share/jinz/MIPS/mips_sram_s3/sim_src/testbench/CheckTwoModels.v(22): (vlog-2163) Macro `CYCLE is undefined.
+# ** Error: /share/jinz/MIPS/mips_sram_s3/sim_src/testbench/CheckTwoModels.v(22): near "=": syntax error, unexpected '='
+# ** Error: /share/jinz/MIPS/mips_sram_s3/sim_src/testbench/CheckTwoModels.v(64): (vlog-2163) Macro `CYCLE is undefined.
+# ** Error: /share/jinz/MIPS/mips_sram_s3/sim_src/testbench/CheckTwoModels.v(64): near ")": syntax error, unexpected ')'
+# ** Error: /usr/local/3rdparty/mentor/modelsim661/modeltech/linux/vlog failed.
+# Error in macro ./mips_test.do line 44
+# /usr/local/3rdparty/mentor/modelsim661/modeltech/linux/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+$INC_PATH $TEST_PATH/CheckTwoModels.v +libext+.v \
+#       -y $INC_PATH -y $BEH_PATH -y $RTL_PATH -y $FPGA_PATH -y $MEM_PATH"

@@ -1,0 +1,5 @@
+// memory data file (do not edit the following line - required for mem load use)
+// instance=/TestBench/DUT_BEH/icache/ram0
+// format=mti addressradix=d dataradix=h version=1.0 wordsperline=8
+ 0: 8fc20118 8fc30114 00000000 8fc20118 8fc20114 afc20110 24420001 1000ff82
+ 8: 03c0e821 27bd0128 8fc20118 8fc30110 a4620002 8c420000 8fc30114 a4620002

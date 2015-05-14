@@ -1,0 +1,172 @@
+-- Copyright (C) 1991-2010 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+
+-- Quartus II generated Memory Initialization File (.mif)
+
+WIDTH=8;
+DEPTH=2048;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+0 : 00;
+1 : 00;
+2 : 1f;
+3 : f8;
+4 : 00;
+5 : 00;
+6 : 00;
+7 : 00;
+8 : 00;
+9 : 02;
+10 : e0;
+11 : fe;
+12 : 01;
+13 : f0;
+14 : 00;
+15 : 01;
+16 : 00;
+17 : 00;
+18 : 00;
+19 : 00;
+20 : 01;
+21 : 00;
+22 : 00;
+23 : 01;
+24 : 00;
+25 : 00;
+26 : 00;
+27 : 01;
+28 : 00;
+29 : 01;
+30 : 00;
+31 : 10;
+32 : 01;
+33 : 01;
+34 : 01;
+35 : 00;
+36 : 01;
+37 : 01;
+38 : 00;
+39 : 01;
+40 : 01;
+41 : 00;
+42 : 01;
+43 : 01;
+44 : 00;
+45 : 01;
+46 : 00;
+47 : 01;
+48 : 00;
+49 : 10;
+50 : 01;
+51 : 01;
+52 : 01;
+53 : 00;
+54 : 01;
+55 : 01;
+56 : 00;
+57 : 01;
+58 : 01;
+59 : 00;
+60 : 01;
+61 : 01;
+62 : 00;
+63 : 01;
+64 : 00;
+65 : 01;
+66 : 01;
+67 : 01;
+68 : 00;
+69 : 01;
+70 : 01;
+71 : 00;
+72 : 01;
+73 : 01;
+74 : 00;
+75 : 01;
+76 : 01;
+77 : 00;
+78 : 01;
+79 : 00;
+80 : 01;
+81 : 01;
+82 : 00;
+83 : 01;
+84 : 00;
+85 : 10;
+86 : 01;
+87 : 01;
+88 : 01;
+89 : 00;
+90 : 00;
+91 : 01;
+92 : 01;
+93 : 00;
+94 : 00;
+95 : 01;
+96 : 01;
+97 : 00;
+98 : 00;
+99 : 01;
+100 : 01;
+101 : 00;
+102 : 00;
+103 : 01;
+104 : 00;
+105 : 01;
+106 : 00;
+107 : 10;
+108 : 01;
+109 : 01;
+110 : 01;
+111 : 00;
+112 : 01;
+113 : 01;
+114 : 00;
+115 : 01;
+116 : 01;
+117 : 00;
+118 : 01;
+119 : 01;
+120 : 00;
+121 : 01;
+122 : 00;
+123 : 01;
+124 : 01;
+125 : 01;
+126 : 00;
+127 : 01;
+128 : 01;
+129 : 00;
+130 : 01;
+131 : 01;
+132 : 00;
+133 : 01;
+134 : 01;
+135 : 00;
+136 : 01;
+137 : 00;
+138 : 01;
+139 : 00;
+140 : 00;
+141 : 00;
+142 : ff;
+143 : 10;
+144 : e8;
+145 : 01;
+146 : 01;
+147 : 00;
+END;

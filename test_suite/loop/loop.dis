@@ -1,0 +1,44 @@
+
+strip_loop:     file format elf32-tradbigmips
+
+Disassembly of section .init:
+
+00000000 <.init>:
+   0:	3c190000 	lui	t9,0x0
+   4:	27390020 	addiu	t9,t9,32
+   8:	241d1ffc 	li	sp,8188
+   c:	0320f809 	jalr	t9
+  10:	00000000 	nop
+  14:	08000005 	j	0x14
+  18:	00000000 	nop
+Disassembly of section .text:
+
+00000020 <.text>:
+  20:	3c1c0000 	lui	gp,0x0
+  24:	279c0070 	addiu	gp,gp,112
+  28:	0399e021 	addu	gp,gp,t9
+  2c:	27bdffc0 	addiu	sp,sp,-64
+  30:	afbe0038 	sw	s8,56(sp)
+  34:	03a0f021 	move	s8,sp
+  38:	afc00008 	sw	zero,8(s8)
+  3c:	8fc20008 	lw	v0,8(s8)
+  40:	2842000a 	slti	v0,v0,10
+  44:	1040000a 	beqz	v0,0x70
+  48:	8fc20008 	lw	v0,8(s8)
+  4c:	00021880 	sll	v1,v0,0x2
+  50:	27c20008 	addiu	v0,s8,8
+  54:	00621821 	addu	v1,v1,v0
+  58:	8fc20008 	lw	v0,8(s8)
+  5c:	ac620008 	sw	v0,8(v1)
+  60:	8fc20008 	lw	v0,8(s8)
+  64:	24420001 	addiu	v0,v0,1
+  68:	afc20008 	sw	v0,8(s8)
+  6c:	1000fff3 	b	0x3c
+  70:	00001021 	move	v0,zero
+  74:	03c0e821 	move	sp,s8
+  78:	8fbe0038 	lw	s8,56(sp)
+  7c:	27bd0040 	addiu	sp,sp,64
+  80:	03e00008 	jr	ra
+  84:	00000000 	nop
+  88:	00000000 	nop
+  8c:	00000000 	nop

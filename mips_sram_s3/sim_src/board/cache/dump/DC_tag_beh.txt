@@ -1,0 +1,5 @@
+// memory data file (do not edit the following line - required for mem load use)
+// instance=/TestBench/DUT_BEH/dcache/tag
+// format=mti addressradix=d dataradix=h version=1.0 wordsperline=8
+ 0: 000003f 000003f 000003f 000003f 000003f 000003f 000003f 000003f
+ 8: 000003f 000003f 000003f 000003d 000003f 000003f 000003f 000003e

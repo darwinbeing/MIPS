@@ -1,0 +1,197 @@
+-- Copyright (C) 1991-2010 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+
+-- Quartus II generated Memory Initialization File (.mif)
+
+WIDTH=8;
+DEPTH=2048;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+0 : 00;
+1 : 20;
+2 : fc;
+3 : 09;
+4 : 00;
+5 : 05;
+6 : 00;
+7 : 00;
+8 : 00;
+9 : 70;
+10 : 21;
+11 : 98;
+12 : 64;
+13 : 60;
+14 : 21;
+15 : 10;
+16 : 58;
+17 : 58;
+18 : 10;
+19 : 0c;
+20 : 58;
+21 : 80;
+22 : 18;
+23 : 21;
+24 : 0f;
+25 : 58;
+26 : 23;
+27 : 00;
+28 : 58;
+29 : 01;
+30 : 58;
+31 : f1;
+32 : 18;
+33 : 10;
+34 : 00;
+35 : 21;
+36 : 20;
+37 : 00;
+38 : 09;
+39 : 00;
+40 : 10;
+41 : 58;
+42 : 58;
+43 : 10;
+44 : 0e;
+45 : 58;
+46 : 80;
+47 : 18;
+48 : 21;
+49 : 00;
+50 : 58;
+51 : 03;
+52 : 01;
+53 : 5c;
+54 : 05;
+55 : 58;
+56 : 01;
+57 : 58;
+58 : ef;
+59 : 5c;
+60 : 5c;
+61 : 21;
+62 : 64;
+63 : 60;
+64 : 68;
+65 : 08;
+66 : 00;
+67 : 88;
+68 : 21;
+69 : e8;
+70 : 10;
+71 : 21;
+72 : 18;
+73 : 1c;
+74 : 20;
+75 : 1c;
+76 : 80;
+77 : 18;
+78 : 21;
+79 : 00;
+80 : 08;
+81 : 1c;
+82 : 80;
+83 : 18;
+84 : 21;
+85 : 20;
+86 : 80;
+87 : 18;
+88 : 21;
+89 : 00;
+90 : 00;
+91 : 20;
+92 : 80;
+93 : 18;
+94 : 21;
+95 : 08;
+96 : 00;
+97 : 21;
+98 : 10;
+99 : 18;
+100 : 08;
+101 : 00;
+102 : fc;
+103 : 21;
+104 : d0;
+105 : 2c;
+106 : 28;
+107 : 21;
+108 : 10;
+109 : 30;
+110 : 34;
+111 : 34;
+112 : ff;
+113 : 18;
+114 : 20;
+115 : 1c;
+116 : 1c;
+117 : 18;
+118 : 2a;
+119 : 1e;
+120 : 1c;
+121 : 80;
+122 : 30;
+123 : 21;
+124 : 1c;
+125 : 80;
+126 : 30;
+127 : 21;
+128 : 00;
+129 : 04;
+130 : 2a;
+131 : 0e;
+132 : 1c;
+133 : 01;
+134 : 30;
+135 : 1c;
+136 : 21;
+137 : 00;
+138 : 21;
+139 : 1c;
+140 : 00;
+141 : 09;
+142 : 00;
+143 : 10;
+144 : 01;
+145 : 20;
+146 : 1c;
+147 : 01;
+148 : 1c;
+149 : de;
+150 : 18;
+151 : ff;
+152 : 18;
+153 : 20;
+154 : 01;
+155 : d6;
+156 : 21;
+157 : 2c;
+158 : 28;
+159 : 30;
+160 : 08;
+161 : 00;
+162 : 00;
+163 : 00;
+164 : 00;
+165 : 00;
+166 : 00;
+167 : 00;
+168 : 00;
+169 : 00;
+170 : 00;
+171 : 08;
+172 : 94;
+END;

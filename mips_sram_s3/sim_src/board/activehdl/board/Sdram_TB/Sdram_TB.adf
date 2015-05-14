@@ -1,0 +1,51 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=Sdram_TB
+
+[Library]
+Sdram_TB=.\Sdram_TB.lib
+
+[$LibMap$]
+Sdram_TB=.
+Active_lib=
+
+[settings]
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+FAMILY=
+FLOW_TYPE=HDL
+LANGUAGE=VERILOG
+FLOWTOOLS=ONLY_IMPL
+
+[IMPLEMENTATION]
+UCF=
+
+[Files]
+/I:\CSCE611\mips_sram_s3\sim_src\board\Multi_Sdram\command.v=-1
+/I:\CSCE611\mips_sram_s3\sim_src\board\Multi_Sdram\control_interface.v=-1
+/I:\CSCE611\mips_sram_s3\sim_src\board\Multi_Sdram\mt48lc8m16a2.v=-1
+/I:\CSCE611\mips_sram_s3\sim_src\board\Multi_Sdram\Multi_Sdram.v=-1
+/I:\CSCE611\mips_sram_s3\sim_src\board\Multi_Sdram\sdr_data_path.v=-1
+/I:\CSCE611\mips_sram_s3\sim_src\board\Multi_Sdram\Sdram_Controller.v=-1
+/I:\CSCE611\mips_sram_s3\sim_src\board\Multi_Sdram\Sdram_Multiplexer.v=-1
+/I:\CSCE611\mips_sram_s3\sim_src\board\Multi_Sdram\Sdram_Params.h=-1
+/I:\CSCE611\mips_sram_s3\sim_src\board\Multi_Sdram\Sdram_TB.v=-1
+/test.do=-1
+
+[Files.Data]
+I:\CSCE611\mips_sram_s3\sim_src\board\Multi_Sdram\command.v=Verilog Source Code
+I:\CSCE611\mips_sram_s3\sim_src\board\Multi_Sdram\control_interface.v=Verilog Source Code
+I:\CSCE611\mips_sram_s3\sim_src\board\Multi_Sdram\mt48lc8m16a2.v=Verilog Source Code
+I:\CSCE611\mips_sram_s3\sim_src\board\Multi_Sdram\Multi_Sdram.v=Verilog Source Code
+I:\CSCE611\mips_sram_s3\sim_src\board\Multi_Sdram\sdr_data_path.v=Verilog Source Code
+I:\CSCE611\mips_sram_s3\sim_src\board\Multi_Sdram\Sdram_Controller.v=Verilog Source Code
+I:\CSCE611\mips_sram_s3\sim_src\board\Multi_Sdram\Sdram_Multiplexer.v=Verilog Source Code
+I:\CSCE611\mips_sram_s3\sim_src\board\Multi_Sdram\Sdram_Params.h=C++ File
+I:\CSCE611\mips_sram_s3\sim_src\board\Multi_Sdram\Sdram_TB.v=Verilog Source Code
+.\src\test.do=Macro
+

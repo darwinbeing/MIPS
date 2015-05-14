@@ -1,0 +1,66 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 5.472 ns
+From           : Display_IF:U_0|VGA_Sync1:U_2|VGA_H_SYNC
+To             : VGA_BLANK
+From Clock     : CLOCK_27
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CLOCK_27'
+Slack          : 30.892 ns
+Required Time  : 27.00 MHz ( period = 37.037 ns )
+Actual Time    : 162.73 MHz ( period = 6.145 ns )
+From           : row[4]
+To             : Display_IF:U_0|Display:U_0|vmem8192x15:vmem8192x15|altsyncram:ram_block_rtl_0|altsyncram_05d1:auto_generated|altsyncram_3og1:altsyncram1|ram_block2a29~portb_datain_reg0
+From Clock     : CLOCK_27
+To Clock       : CLOCK_27
+Failed Paths   : 0
+
+Type           : Clock Setup: 'Display_IF:U_0|VGA_PLL:U_3|altpll:altpll_component|_clk0'
+Slack          : 32.966 ns
+Required Time  : 25.20 MHz ( period = 39.682 ns )
+Actual Time    : 148.90 MHz ( period = 6.716 ns )
+From           : Display_IF:U_0|Display:U_0|vmem8192x15:vmem8192x15|altsyncram:ram_block_rtl_0|altsyncram_05d1:auto_generated|altsyncram_3og1:altsyncram1|ram_block2a18~porta_address_reg11
+To             : Display_IF:U_0|VGA_Sync1:U_2|VGA_B[3]
+From Clock     : Display_IF:U_0|VGA_PLL:U_3|altpll:altpll_component|_clk0
+To Clock       : Display_IF:U_0|VGA_PLL:U_3|altpll:altpll_component|_clk0
+Failed Paths   : 0
+
+Type           : Clock Hold: 'Display_IF:U_0|VGA_PLL:U_3|altpll:altpll_component|_clk0'
+Slack          : 0.391 ns
+Required Time  : 25.20 MHz ( period = 39.682 ns )
+Actual Time    : N/A
+From           : Display_IF:U_0|VGA_Sync1:U_2|VGA_V_SYNC
+To             : Display_IF:U_0|VGA_Sync1:U_2|VGA_V_SYNC
+From Clock     : Display_IF:U_0|VGA_PLL:U_3|altpll:altpll_component|_clk0
+To Clock       : Display_IF:U_0|VGA_PLL:U_3|altpll:altpll_component|_clk0
+Failed Paths   : 0
+
+Type           : Clock Hold: 'CLOCK_27'
+Slack          : 0.391 ns
+Required Time  : 27.00 MHz ( period = 37.037 ns )
+Actual Time    : N/A
+From           : row[0]
+To             : row[0]
+From Clock     : CLOCK_27
+To Clock       : CLOCK_27
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

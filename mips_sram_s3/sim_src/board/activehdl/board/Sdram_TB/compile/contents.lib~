@@ -1,0 +1,21 @@
+351
+~M 1 "./../../../Multi_Sdram/Sdram_TB.v" 2 SDRAM_Top
+~A 1 "./../../../Multi_Sdram/Sdram_TB.v" 2 SDRAM_Top
+~M 3 "./../../../Multi_Sdram/Sdram_TB.v" 131 SDRAM_TB
+~A 1 "./../../../Multi_Sdram/Sdram_TB.v" 131 SDRAM_TB
+~M 3 "./../../../Multi_Sdram/Multi_Sdram.v" 1 Multi_Sdram
+~A 1 "./../../../Multi_Sdram/Multi_Sdram.v" 1 Multi_Sdram
+~M 1 "./../../../Multi_Sdram/Sdram_TB.v" 2 SDRAM_Test
+~A 1 "./../../../Multi_Sdram/Sdram_TB.v" 2 SDRAM_Test
+~M 3 "./../../../Multi_Sdram/control_interface.v" 1 control_interface
+~A 1 "./../../../Multi_Sdram/control_interface.v" 1 control_interface
+~M 3 "./../../../Multi_Sdram/Sdram_Multiplexer.v" 1 Sdram_Multiplexer
+~A 1 "./../../../Multi_Sdram/Sdram_Multiplexer.v" 1 Sdram_Multiplexer
+~M 3 "./../../../Multi_Sdram/Sdram_Controller.v" 1 Sdram_Controller
+~A 1 "./../../../Multi_Sdram/Sdram_Controller.v" 1 Sdram_Controller
+~M 3 "./../../../multi_sdram/command.v" 1 command
+~A 1 "./../../../multi_sdram/command.v" 1 command
+~M 3 "./../../../Multi_Sdram/mt48lc8m16a2.v" 42 mt48lc8m16a2
+~A 1 "./../../../Multi_Sdram/mt48lc8m16a2.v" 42 mt48lc8m16a2
+~M 3 "./../../../Multi_Sdram/sdr_data_path.v" 1 sdr_data_path
+~A 1 "./../../../Multi_Sdram/sdr_data_path.v" 1 sdr_data_path

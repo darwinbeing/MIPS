@@ -1,0 +1,162 @@
+
+ld_Fibonacci:     file format elf32-tradbigmips
+
+Disassembly of section .init:
+
+00000000 <here-0x14>:
+   0:	3c190000 	lui	t9,0x0
+   4:	27390180 	addiu	t9,t9,384
+   8:	241d1ffc 	li	sp,8188
+   c:	0320f809 	jalr	t9
+  10:	00000000 	nop
+
+00000014 <here>:
+  14:	08000005 	j	14 <here>
+  18:	00000000 	nop
+Disassembly of section .text:
+
+00000020 <Fib>:
+  20:	3c1c0000 	lui	gp,0x0
+  24:	279c0200 	addiu	gp,gp,512
+  28:	0399e021 	addu	gp,gp,t9
+  2c:	27bdffd0 	addiu	sp,sp,-48
+  30:	afbf0028 	sw	ra,40(sp)
+  34:	afbe0024 	sw	s8,36(sp)
+  38:	afb00020 	sw	s0,32(sp)
+  3c:	03a0f021 	move	s8,sp
+  40:	afbc0010 	sw	gp,16(sp)
+  44:	afc40030 	sw	a0,48(s8)
+  48:	8fc20030 	lw	v0,48(s8)
+  4c:	28420002 	slti	v0,v0,2
+  50:	10400003 	beqz	v0,60 <Fib+0x40>
+  54:	24020001 	li	v0,1
+  58:	afc20018 	sw	v0,24(s8)
+  5c:	10000017 	b	bc <Fib+0x9c>
+  60:	8fc20030 	lw	v0,48(s8)
+  64:	2442ffff 	addiu	v0,v0,-1
+  68:	00402021 	move	a0,v0
+  6c:	3c190000 	lui	t9,0x0
+  70:	033cc821 	addu	t9,t9,gp
+  74:	8f39001c 	lw	t9,28(t9)
+  78:	00000000 	nop
+  7c:	0320f809 	jalr	t9
+  80:	00000000 	nop
+  84:	8fdc0010 	lw	gp,16(s8)
+  88:	00408021 	move	s0,v0
+  8c:	8fc20030 	lw	v0,48(s8)
+  90:	2442fffe 	addiu	v0,v0,-2
+  94:	00402021 	move	a0,v0
+  98:	3c190000 	lui	t9,0x0
+  9c:	033cc821 	addu	t9,t9,gp
+  a0:	8f39001c 	lw	t9,28(t9)
+  a4:	00000000 	nop
+  a8:	0320f809 	jalr	t9
+  ac:	00000000 	nop
+  b0:	8fdc0010 	lw	gp,16(s8)
+  b4:	02028021 	addu	s0,s0,v0
+  b8:	afd00018 	sw	s0,24(s8)
+  bc:	8fc20018 	lw	v0,24(s8)
+  c0:	03c0e821 	move	sp,s8
+  c4:	8fbf0028 	lw	ra,40(sp)
+  c8:	8fbe0024 	lw	s8,36(sp)
+  cc:	8fb00020 	lw	s0,32(sp)
+  d0:	27bd0030 	addiu	sp,sp,48
+  d4:	03e00008 	jr	ra
+
+000000d8 <Fibonacci>:
+  d8:	3c1c0000 	lui	gp,0x0
+  dc:	279c0148 	addiu	gp,gp,328
+  e0:	0399e021 	addu	gp,gp,t9
+  e4:	27bdffd8 	addiu	sp,sp,-40
+  e8:	afbe0020 	sw	s8,32(sp)
+  ec:	03a0f021 	move	s8,sp
+  f0:	afc40028 	sw	a0,40(s8)
+  f4:	8fc20028 	lw	v0,40(s8)
+  f8:	28420002 	slti	v0,v0,2
+  fc:	10400003 	beqz	v0,10c <Fibonacci+0x34>
+ 100:	24020001 	li	v0,1
+ 104:	afc20018 	sw	v0,24(s8)
+ 108:	10000018 	b	16c <Fibonacci+0x94>
+ 10c:	24020001 	li	v0,1
+ 110:	afc20010 	sw	v0,16(s8)
+ 114:	24020001 	li	v0,1
+ 118:	afc2000c 	sw	v0,12(s8)
+ 11c:	24020002 	li	v0,2
+ 120:	afc20008 	sw	v0,8(s8)
+ 124:	8fc20008 	lw	v0,8(s8)
+ 128:	8fc30028 	lw	v1,40(s8)
+ 12c:	0062102a 	slt	v0,v1,v0
+ 130:	1440000c 	bnez	v0,164 <Fibonacci+0x8c>
+ 134:	8fc3000c 	lw	v1,12(s8)
+ 138:	8fc20010 	lw	v0,16(s8)
+ 13c:	00621021 	addu	v0,v1,v0
+ 140:	afc20014 	sw	v0,20(s8)
+ 144:	8fc2000c 	lw	v0,12(s8)
+ 148:	afc20010 	sw	v0,16(s8)
+ 14c:	8fc20014 	lw	v0,20(s8)
+ 150:	afc2000c 	sw	v0,12(s8)
+ 154:	8fc20008 	lw	v0,8(s8)
+ 158:	24420001 	addiu	v0,v0,1
+ 15c:	afc20008 	sw	v0,8(s8)
+ 160:	1000fff0 	b	124 <Fibonacci+0x4c>
+ 164:	8fc20014 	lw	v0,20(s8)
+ 168:	afc20018 	sw	v0,24(s8)
+ 16c:	8fc20018 	lw	v0,24(s8)
+ 170:	03c0e821 	move	sp,s8
+ 174:	8fbe0020 	lw	s8,32(sp)
+ 178:	27bd0028 	addiu	sp,sp,40
+ 17c:	03e00008 	jr	ra
+
+00000180 <main>:
+ 180:	3c1c0000 	lui	gp,0x0
+ 184:	279c00a0 	addiu	gp,gp,160
+ 188:	0399e021 	addu	gp,gp,t9
+ 18c:	27bdffd0 	addiu	sp,sp,-48
+ 190:	afbf0028 	sw	ra,40(sp)
+ 194:	afbe0024 	sw	s8,36(sp)
+ 198:	afb00020 	sw	s0,32(sp)
+ 19c:	03a0f021 	move	s8,sp
+ 1a0:	afbc0010 	sw	gp,16(sp)
+ 1a4:	24040007 	li	a0,7
+ 1a8:	3c190000 	lui	t9,0x0
+ 1ac:	033cc821 	addu	t9,t9,gp
+ 1b0:	8f39001c 	lw	t9,28(t9)
+ 1b4:	00000000 	nop
+ 1b8:	0320f809 	jalr	t9
+ 1bc:	00000000 	nop
+ 1c0:	8fdc0010 	lw	gp,16(s8)
+ 1c4:	00408021 	move	s0,v0
+ 1c8:	24040007 	li	a0,7
+ 1cc:	3c190000 	lui	t9,0x0
+ 1d0:	033cc821 	addu	t9,t9,gp
+ 1d4:	8f390020 	lw	t9,32(t9)
+ 1d8:	00000000 	nop
+ 1dc:	0320f809 	jalr	t9
+ 1e0:	00000000 	nop
+ 1e4:	8fdc0010 	lw	gp,16(s8)
+ 1e8:	12020003 	beq	s0,v0,1f8 <main+0x78>
+ 1ec:	24020001 	li	v0,1
+ 1f0:	afc20018 	sw	v0,24(s8)
+ 1f4:	10000001 	b	1fc <main+0x7c>
+ 1f8:	afc00018 	sw	zero,24(s8)
+ 1fc:	8fc20018 	lw	v0,24(s8)
+ 200:	03c0e821 	move	sp,s8
+ 204:	8fbf0028 	lw	ra,40(sp)
+ 208:	8fbe0024 	lw	s8,36(sp)
+ 20c:	8fb00020 	lw	s0,32(sp)
+ 210:	27bd0030 	addiu	sp,sp,48
+ 214:	03e00008 	jr	ra
+ 218:	00000000 	nop
+ 21c:	00000000 	nop
+Disassembly of section .got:
+
+00000220 <_GLOBAL_OFFSET_TABLE_>:
+ 220:	00000000 	nop
+ 224:	80000000 	lb	zero,0(zero)
+ 228:	00000000 	nop
+ 22c:	00000000 	nop
+ 230:	00000000 	nop
+ 234:	00000000 	nop
+ 238:	00000000 	nop
+ 23c:	00000020 	add	zero,zero,zero
+ 240:	000000d8 	0xd8

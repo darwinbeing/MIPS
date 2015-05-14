@@ -1,0 +1,45 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=test_cache
+
+[Library]
+test_cache=.\test_cache.lib
+
+[$LibMap$]
+test_cache=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VERILOG
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+FAMILY=
+FLOWTOOLS=ONLY_IMPL
+HESPrepare=0
+
+[IMPLEMENTATION]
+UCF=
+
+[Files]
+/i:\csce611\mips_sram_s3\sim_src\board\cache\cache.v=-1
+/i:\csce611\mips_sram_s3\sim_src\board\arbiter\arbiter.v=-1
+/i:\csce611\mips_sram_s3\sim_src\board\cache\test_cache.v=-1
+/cache.awf=-1
+
+[Files.Data]
+i:\csce611\mips_sram_s3\sim_src\board\cache\cache.v=Verilog Source Code
+i:\csce611\mips_sram_s3\sim_src\board\arbiter\arbiter.v=Verilog Source Code
+i:\csce611\mips_sram_s3\sim_src\board\cache\test_cache.v=Verilog Source Code
+.\src\cache.awf=Waveform File
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

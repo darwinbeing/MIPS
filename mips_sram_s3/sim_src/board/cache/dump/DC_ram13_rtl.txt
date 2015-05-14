@@ -1,0 +1,5 @@
+// memory data file (do not edit the following line - required for mem load use)
+// instance=/TestBench/DUT_RTL/DCache/DataRam_D13/DataRam
+// format=mti addressradix=d dataradix=h version=1.0 wordsperline=8
+ 0: a4 ac b4 bc c4 cc d4 dc
+ 8: e4 ec f4 00 00 fc 00 9c

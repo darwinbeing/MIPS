@@ -1,0 +1,35 @@
+// memory data file (do not edit the following line - required for mem load use)
+// instance=/TestBench/DUT_BEH/Processor/GPR
+// format=mti addressradix=h dataradix=h version=1.0 wordsperline=1
+ 0: 00000000
+ 1: 00020000
+ 2: 00000001
+ 3: ffffffff
+ 4: 00000000
+ 5: 000000ff
+ 6: 00000100
+ 7: 00000400
+ 8: 00000300
+ 9: 00005555
+ a: ffffaaaa
+ b: 00000000
+ c: 0000aaa7
+ d: 00555500
+ e: 00000002
+ f: 07fffd55
+10: 00002aaa
+11: ffffffff
+12: 00001555
+13: 00000000
+14: 00000001
+15: 00000001
+16: 00000000
+17: ffffffff
+18: 00000064
+19: ffffffff
+1a: 0000ffff
+1b: 000000ff
+1c: ffffffff
+1d: ffffffff
+1e: 00000074
+1f: 00000000

@@ -1,0 +1,30 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+BEGINPROGRESS Compiling...
+UPDATEPROGRESS 4
+UPDATEPROGRESS 8
+UPDATEPROGRESS 13
+UPDATEPROGRESS 17
+UPDATEPROGRESS 21
+UPDATEPROGRESS 26
+UPDATEPROGRESS 30
+UPDATEPROGRESS 35
+MESSAGE "Pass 2. Processing instantiations."
+UPDATEPROGRESS 45
+WARNING VCP2597 "Some unconnected ports remain at instance: u1. The module Sdram_Controller has 23 port(s)." "i:/CSCE611/mips_sram_s3/sim_src/board/Multi_Sdram/Multi_Sdram.v" 72 1
+WARNING VCP2597 "Some unconnected ports remain at instance: control1. The module control_interface has 17 port(s)." "i:/CSCE611/mips_sram_s3/sim_src/board/Multi_Sdram/Sdram_Controller.v" 116 1
+MESSAGE "Pass 3. Processing behavioral statements."
+UPDATEPROGRESS 48
+UPDATEPROGRESS 52
+UPDATEPROGRESS 55
+UPDATEPROGRESS 59
+UPDATEPROGRESS 62
+UPDATEPROGRESS 66
+UPDATEPROGRESS 69
+UPDATEPROGRESS 73
+UPDATEPROGRESS 76
+UPDATEPROGRESS 80
+MESSAGE "ELB/DAG code generating."
+UPDATEPROGRESS 100
+MESSAGE "Top modules: SDRAM_TB."
+ENDPROGRESS Compiling...
+SUCCESS "Compile success 0 Errors 2 Warnings  Analysis time : 1[s]."

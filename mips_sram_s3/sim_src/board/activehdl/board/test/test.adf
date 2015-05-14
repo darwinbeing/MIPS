@@ -1,0 +1,162 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=test
+
+[Library]
+test=.\test.LIB
+
+[$LibMap$]
+test=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VERILOG
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+FAMILY=
+FLOWTOOLS=ONLY_IMPL
+HESPrepare=0
+REFRESH_FLOW=1
+VerilogDirsChanged=1
+NoTchkMsg=0
+NoTimingChecks=0
+CreateASDBDatabase=0
+ASDBDatabaseRefresh=0
+ENABLE_ADV_DATAFLOW=0
+EnableXtrace=0
+SplitNetVectors=0
+StackMemorySize=32
+ASDBREFTESHTIME=1
+RetvalMemorySize=32
+EnableCallbacks=0
+VsimAdditionalOptions=
+
+[IMPLEMENTATION]
+UCF=
+
+[LocalVerilogSets]
+ContinuousCompilation=1
+Strict=0
+Strict2001=1
+ErrorOutputLimit=0
+WarningPrnLevel=1
+OptimizationLevel=2
+EnableDebug=1
+SystemVerilog3=0
+StrictLRMMode=0
+ProtectLevel=0
+AdditionalOptions=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
+
+[DefineMacro]
+Global=
+
+[LintSets]
+EnableLintTool=0
+LintAllRules=1
+LintCodingStylesRules=0
+Lint_Design_For_Tests_Rules=0
+LintDesignStyleRules=0
+LintLanguageConstructRules=0
+LintSimulationRules=0
+LintSynthesisRules=0
+LintLineLengthLimit=80
+
+[LocalVhdlSets]
+ReorderOnFirstRebuild=1
+EnableVHDL87Key=1
+EnableVHDL2002Key=1
+NetlistCompilation=1
+ElaborationAfterCompilation=0
+MaxErrorsKey=100
+CompileWithDebug=1
+OptimizationLevel=3
+DisableRangeChecks=0
+PrintErrWarnOnly=0
+GenMultiplatformLib=0
+ProtectLevel=0
+AdditionalOptions=
+IncrementalCompilation=0
+
+[LocalVerilogDirs]
+Count=1
+IncludeDir0=I:\CSCE611\mips_sram_s3\sim_src\include
+
+[Folders]
+Name3=Makefiles
+Directory3=i:\CSCE611\mips_sram_s3\sim_src\board\activehdl\board\test\
+Extension3=mak
+Name4=Memory
+Directory4=I:\CSCE611\mips_sram_s3\sim_src\board\activehdl\board\test\src
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=I:\CSCE611\mips_sram_s3\sim_src\board\activehdl\board\test\
+Extension5=dll
+Name6=PDF
+Directory6=I:\CSCE611\mips_sram_s3\sim_src\board\activehdl\board\test\
+Extension6=pdf
+Name7=HTML
+Directory7=I:\CSCE611\mips_sram_s3\sim_src\board\activehdl\board\test\
+Extension7=
+
+[Files]
+/I:\CSCE611\mips_sram_s3\sim_src\board\testbench\TestBench.v=-1
+/i:\csce611\mips_sram_s3\sim_src\board\arbiter\arbiter.v=-1
+/I:\CSCE611\mips_sram_s3\sim_src\board\cache\cache.v=-1
+/I:\CSCE611\mips_sram_s3\sim_src\board\cache\memory.v=-1
+/I:\CSCE611\mips_sram_s3\sim_src\board\processor\PPS_Top.v=-1
+/I:\CSCE611\mips_sram_s3\sim_src\board\processor\PPS_Processor.v=-1
+/I:\CSCE611\mips_sram_s3\sim_src\board\processor\Memory_Interface.v=-1
+/I:\CSCE611\mips_sram_s3\sim_src\board\processor\PPS_Fetch.v=-1
+/I:\CSCE611\mips_sram_s3\sim_src\board\processor\PPS_Decode.v=-1
+/I:\CSCE611\mips_sram_s3\sim_src\board\processor\PPS_Execute.v=-1
+/I:\CSCE611\mips_sram_s3\sim_src\board\processor\PPS_Memory.v=-1
+/I:\CSCE611\mips_sram_s3\sim_src\board\processor\PPS_WriteBack.v=-1
+/I:\CSCE611\mips_sram_s3\sim_src\board\processor\Test_Sync.v=-1
+/I:\CSCE611\mips_sram_s3\sim_src\board\processor\RegFile.v=-1
+/I:\CSCE611\mips_sram_s3\sim_src\board\processor\Decoder.v=-1
+/I:\CSCE611\mips_sram_s3\sim_src\board\processor\ALU.v=-1
+/I:\CSCE611\mips_sram_s3\sim_src\board\dma\host.v=-1
+/I:\CSCE611\mips_sram_s3\sim_src\board\dma\addr_decode.v=-1
+/I:\CSCE611\mips_sram_s3\sim_src\board\dma\dma_controller.v=-1
+/\default_compile.do=-1
+/board.do=-1
+/board_wave.awf=-1
+/I:\CSCE611\mips_sram_s3\sim_src\board\activehdl\board\Sdram_TB\src\sdram.awf=-1
+
+[Files.Data]
+I:\CSCE611\mips_sram_s3\sim_src\board\testbench\TestBench.v=Verilog Source Code
+i:\csce611\mips_sram_s3\sim_src\board\arbiter\arbiter.v=Verilog Source Code
+I:\CSCE611\mips_sram_s3\sim_src\board\cache\cache.v=Verilog Source Code
+I:\CSCE611\mips_sram_s3\sim_src\board\cache\memory.v=Verilog Source Code
+I:\CSCE611\mips_sram_s3\sim_src\board\processor\PPS_Top.v=Verilog Source Code
+I:\CSCE611\mips_sram_s3\sim_src\board\processor\PPS_Processor.v=Verilog Source Code
+I:\CSCE611\mips_sram_s3\sim_src\board\processor\Memory_Interface.v=Verilog Source Code
+I:\CSCE611\mips_sram_s3\sim_src\board\processor\PPS_Fetch.v=Verilog Source Code
+I:\CSCE611\mips_sram_s3\sim_src\board\processor\PPS_Decode.v=Verilog Source Code
+I:\CSCE611\mips_sram_s3\sim_src\board\processor\PPS_Execute.v=Verilog Source Code
+I:\CSCE611\mips_sram_s3\sim_src\board\processor\PPS_Memory.v=Verilog Source Code
+I:\CSCE611\mips_sram_s3\sim_src\board\processor\PPS_WriteBack.v=Verilog Source Code
+I:\CSCE611\mips_sram_s3\sim_src\board\processor\Test_Sync.v=Verilog Source Code
+I:\CSCE611\mips_sram_s3\sim_src\board\processor\RegFile.v=Verilog Source Code
+I:\CSCE611\mips_sram_s3\sim_src\board\processor\Decoder.v=Verilog Source Code
+I:\CSCE611\mips_sram_s3\sim_src\board\processor\ALU.v=Verilog Source Code
+I:\CSCE611\mips_sram_s3\sim_src\board\dma\host.v=Verilog Source Code
+I:\CSCE611\mips_sram_s3\sim_src\board\dma\addr_decode.v=Verilog Source Code
+I:\CSCE611\mips_sram_s3\sim_src\board\dma\dma_controller.v=Verilog Source Code
+.\default_compile.do=Macro
+.\src\board.do=Macro
+.\src\board_wave.awf=Waveform File
+I:\CSCE611\mips_sram_s3\sim_src\board\activehdl\board\Sdram_TB\src\sdram.awf=Waveform File
+

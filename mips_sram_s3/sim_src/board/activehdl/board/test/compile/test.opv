@@ -1,0 +1,1 @@
+-work test -lc I:/CSCE611/mips_sram_s3/sim_src/board/activehdl/board/library.cfg -fl I:/CSCE611/mips_sram_s3/sim_src/board/activehdl/board/test/projlib.cfg -o I:/CSCE611/mips_sram_s3/sim_src/board/activehdl/board/test/compile -l "test" -v2k  -v2k   -dbg

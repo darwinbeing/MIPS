@@ -1,0 +1,9 @@
+"../../../multi_sdram/command.v"	1
+"../../../multi_sdram/sdram_params.h"	1
+"../../../multi_sdram/multi_sdram.v"	2
+"../../../multi_sdram/sdram_multiplexer.v"	1
+"../../../multi_sdram/sdram_controller.v"	2
+"../../../multi_sdram/control_interface.v"	1
+"../../../multi_sdram/sdr_data_path.v"	1
+"../../../multi_sdram/sdram_tb.v"	1
+"../../../multi_sdram/mt48lc8m16a2.v"	1

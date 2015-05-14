@@ -1,0 +1,21 @@
+
+init.o:     file format elf32-tradbigmips
+
+Disassembly of section .reginfo:
+
+00000000 <.reginfo>:
+   0:	b2000000 	0xb2000000
+	...
+Disassembly of section .init:
+
+00000000 <here-0x18>:
+   0:	3c190000 	lui	t9,0x0
+   4:	27390000 	addiu	t9,t9,0
+   8:	3c1d001f 	lui	sp,0x1f
+   c:	37bdfe00 	ori	sp,sp,0xfe00
+  10:	0320f809 	jalr	t9
+  14:	00000000 	nop
+
+00000018 <here>:
+  18:	08000006 	j	18 <here>
+  1c:	00000000 	nop

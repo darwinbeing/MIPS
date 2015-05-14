@@ -1,0 +1,212 @@
+# //  ModelSim SE 6.6b May 21 2010 Linux 2.6.18-194.17.1.el5
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do test_two_models.do 
+# /share/jinz/MIPS/mips_sram_s3/sim_src
+# /usr/local/3rdparty/csce611/Altera_Sim_Lib/verilog_libs
+# /share/jinz/MIPS/mips_sram_s3/sim_src/behav
+# /share/jinz/MIPS/mips_sram_s3/sim_src/include
+# /share/jinz/MIPS/mips_sram_s3/sim_src/board
+# /share/jinz/MIPS/mips_sram_s3/sim_src/board/cache
+# /share/jinz/MIPS/mips_sram_s3/sim_src/board/cache/rtl
+# /share/jinz/MIPS/mips_sram_s3/sim_src/board/Multi_Sdram
+# /share/jinz/MIPS/mips_sram_s3/sim_src/board/arbiter
+# /share/jinz/MIPS/mips_sram_s3/sim_src/board/processor
+# /share/jinz/MIPS/mips_sram_s3/sim_src/board/cache/testbench
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is jinz@tachyon.cse.sc.edu.
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt1".  Locker is jinz@tachyon.cse.sc.edu.
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt2".  Locker is jinz@tachyon.cse.sc.edu.
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt3".  Locker is jinz@tachyon.cse.sc.edu.
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt4".  Locker is jinz@tachyon.cse.sc.edu.
+# ** Warning: (vlib-34) Library already exists at "test_two_models_work".
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# ** Note: (vlog-1901) OptionFile "I:/CSCE611/mips_sram_s3/sim_src/board/cache/modelsim/vlog.opt" not found. Ignored.
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module TestBench
+# -- Scanning library directory '/share/jinz/MIPS/mips_sram_s3/sim_src/board/cache/testbench'
+# -- Compiling module test_beh
+# -- Compiling module test_rtl
+# -- Scanning library directory '/share/jinz/MIPS/mips_sram_s3/sim_src/board/cache'
+# ** Warning: /share/jinz/MIPS/mips_sram_s3/sim_src/board/cache/wide_cache.v(8): (vlog-2263) Redefinition of macro: vbs.
+# -- Compiling module wide_cache
+# ** Warning: /share/jinz/MIPS/mips_sram_s3/sim_src/board/cache/wide_cache_wb.v(8): (vlog-2263) Redefinition of macro: vbs.
+# -- Compiling module wide_cache_wb
+# -- Compiling module memory
+# -- Scanning library directory '/share/jinz/MIPS/mips_sram_s3/sim_src/board/cache/rtl'
+# -- Compiling module ICache
+# -- Compiling module DCache
+# -- Compiling module ICacheControl
+# ** Error: /share/jinz/MIPS/mips_sram_s3/sim_src/board/cache/rtl/DCacheControl.v(71): Undefined variable: read_dc_miss_cnt.
+# ** Error: /share/jinz/MIPS/mips_sram_s3/sim_src/board/cache/rtl/DCacheControl.v(72): Undefined variable: write_dc_miss_cnt.
+# ** Error: /share/jinz/MIPS/mips_sram_s3/sim_src/board/cache/rtl/DCacheControl.v(73): Undefined variable: read_wb_miss_cnt.
+# ** Error: /share/jinz/MIPS/mips_sram_s3/sim_src/board/cache/rtl/DCacheControl.v(74): Undefined variable: write_wb_miss_cnt.
+# ** Error: /share/jinz/MIPS/mips_sram_s3/sim_src/board/cache/rtl/DCacheControl.v(75): Undefined variable: read_dc_cnt.
+# ** Error: /share/jinz/MIPS/mips_sram_s3/sim_src/board/cache/rtl/DCacheControl.v(76): Undefined variable: write_dc_cnt.
+# ** Error: /share/jinz/MIPS/mips_sram_s3/sim_src/board/cache/rtl/DCacheControl.v(77): Undefined variable: read_wb_cnt.
+# ** Error: /share/jinz/MIPS/mips_sram_s3/sim_src/board/cache/rtl/DCacheControl.v(78): Undefined variable: write_wb_cnt.
+# -- Compiling module WriteBufferControl
+# -- Compiling module wb_val_B1
+# -- Compiling module wb_tagval_B1
+# -- Compiling module wb_tag_B27
+# -- Compiling module wb_mem_B8
+# -- Compiling module WriteBuffer
+# -- Scanning library directory '/share/jinz/MIPS/mips_sram_s3/sim_src/board/arbiter'
+# -- Compiling module arbiter_beh
+# -- Compiling module arbiter
+# -- Scanning library directory '/share/jinz/MIPS/mips_sram_s3/sim_src/board/processor'
+# -- Compiling module Test_Sync
+# -- Compiling module PPS_Processor
+# -- Compiling module Memory_Interface
+# -- Compiling module PPS_Fetch
+# -- Compiling module PPS_Decode
+# -- Compiling module PPS_Execute
+# -- Compiling module PPS_Memory
+# -- Compiling module PPS_WriteBack
+# -- Compiling module Decoder
+# -- Compiling module RegFile
+# -- Compiling module ALU
+# -- Scanning library directory '/share/jinz/MIPS/mips_sram_s3/sim_src/behav'
+# -- Compiling module mips_cache_behav
+# -- Scanning library directory '/share/jinz/MIPS/mips_sram_s3/sim_src/board/Multi_Sdram'
+# -- Compiling module Multi_Sdram
+# -- Compiling module mt48lc8m16a2
+# -- Compiling module Sdram_Multiplexer
+# -- Compiling module Sdram_Controller
+# -- Compiling module PLL1
+# -- Compiling module control_interface
+# -- Compiling module command
+# -- Compiling module sdr_data_path
+# ** Error: /usr/local/3rdparty/mentor/modelsim661/modeltech/linux/vlog failed.
+# Error in macro ./test_two_models.do line 60
+# /usr/local/3rdparty/mentor/modelsim661/modeltech/linux/vlog failed.
+#     while executing
+# "vlog -incr -sv -work work +incdir+$INC_PATH+$SDR_PATH+$CACHE_RTL_PATH $TEST_PATH/test_two_models.v +libext+.v \
+#       -y $TEST_PATH -y $CACHE_BEH_PATH..."
+do test_two_models.do
+# /share/jinz/MIPS/mips_sram_s3/sim_src
+# /usr/local/3rdparty/csce611/Altera_Sim_Lib/verilog_libs
+# /share/jinz/MIPS/mips_sram_s3/sim_src/behav
+# /share/jinz/MIPS/mips_sram_s3/sim_src/include
+# /share/jinz/MIPS/mips_sram_s3/sim_src/board
+# /share/jinz/MIPS/mips_sram_s3/sim_src/board/cache
+# /share/jinz/MIPS/mips_sram_s3/sim_src/board/cache/rtl
+# /share/jinz/MIPS/mips_sram_s3/sim_src/board/Multi_Sdram
+# /share/jinz/MIPS/mips_sram_s3/sim_src/board/arbiter
+# /share/jinz/MIPS/mips_sram_s3/sim_src/board/processor
+# /share/jinz/MIPS/mips_sram_s3/sim_src/board/cache/testbench
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is jinz@tachyon.cse.sc.edu.
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt1".  Locker is jinz@tachyon.cse.sc.edu.
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt2".  Locker is jinz@tachyon.cse.sc.edu.
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt3".  Locker is jinz@tachyon.cse.sc.edu.
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt4".  Locker is jinz@tachyon.cse.sc.edu.
+# ** Warning: (vlib-34) Library already exists at "test_two_models_work".
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# ** Note: (vlog-1901) OptionFile "I:/CSCE611/mips_sram_s3/sim_src/board/cache/modelsim/vlog.opt" not found. Ignored.
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module TestBench
+# -- Scanning library directory '/share/jinz/MIPS/mips_sram_s3/sim_src/board/cache/testbench'
+# -- Compiling module test_beh
+# -- Compiling module test_rtl
+# -- Scanning library directory '/share/jinz/MIPS/mips_sram_s3/sim_src/board/cache'
+# ** Warning: /share/jinz/MIPS/mips_sram_s3/sim_src/board/cache/wide_cache.v(8): (vlog-2263) Redefinition of macro: vbs.
+# -- Compiling module wide_cache
+# ** Warning: /share/jinz/MIPS/mips_sram_s3/sim_src/board/cache/wide_cache_wb.v(8): (vlog-2263) Redefinition of macro: vbs.
+# -- Compiling module wide_cache_wb
+# -- Compiling module memory
+# -- Scanning library directory '/share/jinz/MIPS/mips_sram_s3/sim_src/board/cache/rtl'
+# -- Compiling module ICache
+# -- Compiling module DCache
+# -- Compiling module ICacheControl
+# -- Compiling module DCacheControl
+# -- Compiling module WriteBufferControl
+# -- Compiling module wb_val_B1
+# -- Compiling module wb_tagval_B1
+# -- Compiling module wb_tag_B27
+# -- Compiling module wb_mem_B8
+# -- Compiling module WriteBuffer
+# -- Scanning library directory '/share/jinz/MIPS/mips_sram_s3/sim_src/board/arbiter'
+# -- Compiling module arbiter_beh
+# -- Compiling module arbiter
+# -- Scanning library directory '/share/jinz/MIPS/mips_sram_s3/sim_src/board/processor'
+# -- Compiling module Test_Sync
+# -- Compiling module PPS_Processor
+# -- Compiling module Memory_Interface
+# -- Compiling module PPS_Fetch
+# -- Compiling module PPS_Decode
+# -- Compiling module PPS_Execute
+# -- Compiling module PPS_Memory
+# -- Compiling module PPS_WriteBack
+# -- Compiling module Decoder
+# -- Compiling module RegFile
+# -- Compiling module ALU
+# -- Scanning library directory '/share/jinz/MIPS/mips_sram_s3/sim_src/behav'
+# -- Compiling module mips_cache_behav
+# -- Scanning library directory '/share/jinz/MIPS/mips_sram_s3/sim_src/board/Multi_Sdram'
+# -- Compiling module Multi_Sdram
+# -- Compiling package Multi_Sdram_v_unit
+# -- Compiling package Multi_Sdram_v_unit
+# -- Compiling module Multi_Sdram
+# -- Compiling module mt48lc8m16a2
+# -- Compiling module Sdram_Multiplexer
+# -- Compiling module Sdram_Controller
+# -- Compiling module PLL1
+# -- Compiling module control_interface
+# -- Compiling module command
+# -- Compiling module sdr_data_path
+# -- Scanning library directory '/share/jinz/MIPS/mips_sram_s3/sim_src/board/cache/testbench'
+# -- Scanning library directory '/share/jinz/MIPS/mips_sram_s3/sim_src/board/cache'
+# -- Scanning library directory '/share/jinz/MIPS/mips_sram_s3/sim_src/board/cache/rtl'
+# -- Scanning library directory '/share/jinz/MIPS/mips_sram_s3/sim_src/board/arbiter'
+# -- Scanning library directory '/share/jinz/MIPS/mips_sram_s3/sim_src/board/processor'
+# -- Scanning library directory '/share/jinz/MIPS/mips_sram_s3/sim_src/behav'
+# -- Scanning library directory '/share/jinz/MIPS/mips_sram_s3/sim_src/board/Multi_Sdram'
+# 
+# Referenced (but uncompiled) modules or primitives:
+# 	DataMux
+# 	TagRam
+# 	ValidRam
+# 	DataRam
+# 	Comparator
+# 	altpll
+# 
+# Top level modules:
+# 	TestBench
+# ** Note: (vlog-1901) OptionFile "I:/CSCE611/mips_sram_s3/sim_src/board/cache/modelsim/vlog.opt" not found. Ignored.
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module TagRam
+# -- Compiling module ValidRam
+# -- Compiling module DataRam
+# -- Compiling module Comparator
+# -- Compiling module DataMux
+# -- Compiling module DataMux4
+# 
+# Top level modules:
+# 	TagRam
+# 	ValidRam
+# 	DataRam
+# 	Comparator
+# 	DataMux
+# 	DataMux4
+# ** Note: (vlog-1901) OptionFile "I:/CSCE611/mips_sram_s3/sim_src/board/cache/modelsim/vlog.opt" not found. Ignored.
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module wb_val_B1
+# -- Compiling module wb_tagval_B1
+# -- Compiling module wb_tag_B27
+# -- Compiling module wb_mem_B8
+# -- Compiling module WriteBuffer
+# 
+# Top level modules:
+# 	WriteBuffer

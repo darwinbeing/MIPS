@@ -1,0 +1,76 @@
+array[0] = 04030201
+array[1] = 05040302
+array[2] = 06050403
+array[3] = 07060504
+array[4] = 08070605
+array[5] = 09080706
+array[6] = 0a090807
+array[7] = 0b0a0908
+array[8] = 0c0b0a09
+array[9] = 0d0c0b0a
+
+array[0] = fffeffff
+array[1] = ffff0000
+array[2] = 00000001
+array[3] = 00010002
+array[4] = 00020003
+array[5] = 00030004
+array[6] = 00040005
+array[7] = 00050006
+array[8] = 00060007
+array[9] = 00070008
+
+array[0] = fcfdfeff
+array[1] = fdfeff00
+array[2] = feff0001
+array[3] = ff000102
+array[4] = 00010203
+array[5] = 01020304
+array[6] = 02030405
+array[7] = 03040506
+array[8] = 04050607
+array[9] = 05060708
+
+sum of array[0] = fffffff6
+sum of array[1] = fffffffa
+sum of array[2] = fffffffe
+sum of array[3] = 00000002
+sum of array[4] = 00000006
+sum of array[5] = 0000000a
+sum of array[6] = 0000000e
+sum of array[7] = 00000012
+sum of array[8] = 00000016
+sum of array[9] = 0000001a
+
+sum of array[0] = 000003f6
+sum of array[1] = 000002fa
+sum of array[2] = 000001fe
+sum of array[3] = 00000102
+sum of array[4] = 00000006
+sum of array[5] = 0000000a
+sum of array[6] = 0000000e
+sum of array[7] = 00000012
+sum of array[8] = 00000016
+sum of array[9] = 0000001a
+
+sum of array[0] = fffffbfc
+sum of array[1] = fffffcfe
+sum of array[2] = ffffff00
+sum of array[3] = 00000002
+sum of array[4] = 00000204
+sum of array[5] = 00000406
+sum of array[6] = 00000608
+sum of array[7] = 0000080a
+sum of array[8] = 00000a0c
+sum of array[9] = 00000c0e
+
+sum of array[0] = 0001fbfc
+sum of array[1] = 0001fcfe
+sum of array[2] = 0000ff00
+sum of array[3] = 00010002
+sum of array[4] = 00000204
+sum of array[5] = 00000406
+sum of array[6] = 00000608
+sum of array[7] = 0000080a
+sum of array[8] = 00000a0c
+sum of array[9] = 00000c0e

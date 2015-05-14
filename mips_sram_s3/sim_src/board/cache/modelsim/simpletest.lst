@@ -1,0 +1,137 @@
+[0x00400000]	0x20000001  addi $0, $0, 1                  ; 8: addi $0, $0, 1         # R0 had better still be 0         
+[0x00400004]	0x0000c022  sub $24, $0, $0                 ; 14: sub   $24, $0, $0       #  r24 = 0               
+[0x00400008]	0x20020001  addi $2, $0, 1                  ; 15: addi  $2, $0, 1         #  r2=1               
+[0x0040000c]	0x2003ffff  addi $3, $0, -1                 ; 16: addi  $3, $0, -1        #  r3=-1               
+[0x00400010]	0x00622020  add $4, $3, $2                  ; 17: add   $4, $3, $2        #  r4=0 (no exceptions)               
+[0x00400014]	0x306500ff  andi $5, $3, 255                ; 18: andi  $5, $3, 255       #  r5=255=0x000000FF               
+[0x00400018]	0x00a23021  addu $6, $5, $2                 ; 19: addu  $6, $5, $2        #  r6=256=0x00000100               
+[0x0040001c]	0x24c70300  addiu $7, $6, 768               ; 20: addiu $7, $6, 768       #  r7=1024=0x00000400               
+[0x00400020]	0x00e64023  subu $8, $7, $6                 ; 21: subu  $8, $7, $6        #  r8=768=0x00000300            
+[0x00400024]	0x34095555  ori $9, $0, 21845               ; 23: ori   $9, $0, 21845     #  r9=21845=0x00005555               
+[0x00400028]	0x01204825  or $9, $9, $0                   ; 24: or    $9, $9, $0        #  r9=21845=0x00005555 =unchanged               
+[0x0040002c]	0x01234824  and $9, $9, $3                  ; 25: and   $9, $9, $3        #  r9=21845=0x00005555 =unchanged               
+[0x00400030]	0x01205027  nor $10, $9, $0                 ; 26: nor   $10, $9, $0       #  r10=-21846=0xFFFFAAAA               
+[0x00400034]	0x014a5826  xor $11, $10, $10               ; 27: xor   $11, $10, $10     #  r11=0 =0x00000000              
+[0x00400038]	0x392cfff2  xori $12, $9, -14               ; 28: xori  $12, $9, 65522    #  r12=0x0000AAA7           
+[0x0040003c]	0x00096a00  sll $13, $9, 8                  ; 30: sll   $13, $9, 8        #  r13=5592320=0x00555500               
+[0x00400040]	0x00427004  sllv $14, $2, $2                ; 31: sllv  $14, $2, $2       #  r14=2        =0x00000002       
+[0x00400044]	0x000a7942  srl $15, $10, 5                 ; 32: srl   $15, $10, 5       #  r15=134217045=0x07fffD55               
+[0x00400048]	0x00498006  srlv $16, $9, $2                ; 33: srlv  $16, $9, $2       #  r16=10922=0x00002AAA               
+[0x0040004c]	0x00038903  sra $17, $3, 4                  ; 34: sra   $17, $3, 4        #  r17=-1=0xFFFFFFFF               
+[0x00400050]	0x01c99007  srav $18, $9, $14               ; 35: srav  $18, $9, $14      #  r18=5461=0x00001555               
+[0x00400054]	0x0129982a  slt $19, $9, $9                 ; 36: slt   $19, $9, $9       #  r19=0=0x00000000               
+[0x00400058]	0x00a6a02a  slt $20, $5, $6                 ; 37: slt   $20, $5, $6       #  r20=0=0x00000001               
+[0x0040005c]	0x0083a82b  sltu $21, $4, $3                ; 38: sltu  $21, $4, $3       #  r21=1=0x00000001               
+[0x00400060]	0x2c760000  sltiu $22, $3, 0                ; 39: sltiu $22, $3, 0        #  r22=0=0x00000000               
+[0x00400064]	0x20170000  addi $23, $0, 0                 ; 44: addi  $23,$0,0          # set register 23 to zero
+[0x00400068]	0x0010001c  j 0x00400070 [jumpok]           ; 45: j jumpok
+[0x0040006c]	0x2017ffff  addi $23, $0, -1                ; 46: addi  $23,$0,-1         # -1 in r23 means jump failed
+[0x00400070]	0x20180000  addi $24, $0, 0                 ; 48: addi  $24,$0,0          # initialize  register 24 to zero
+[0x00400074]	0x0c000020  jal 0x00400080 [jalok]          ; 49: jal jalok               # this is taken w/$31 = PC
+[0x00400078]	0x23180001  addi $24, $24, 1                ; 50: addi  $24,$24,1         # should not come here after jal, but will after jalr below
+[0x0040007c]	0x00100022  j 0x00400088 [out]              ; 51: j out# 
+[0x00400080]	0x20180064  addi $24, $0, 100               ; 53: addi  $24,$0,100        # re-init $24 to 100
+[0x00400084]	0x03e0f809  jalr $31, $31                   ; 54: jalr  $31               # now jump back 3 instructions 
+[0x00400088]	0x10630001  beq $3, $3, 4 [taken-0x00400088]; 62: beq   $3,$3 taken     # taken branch: PC moves ahead by 8
+[0x0040008c]	0x00100023  j 0x0040008c [stuck]            ; 63: j     stuck           # don't execute this instruction
+[0x00400090]	0x1062fffe  beq $3, $2, -8 [stuck-0x00400090]; 64: beq   $3, $2, stuck   # no take branch (failures get stuck)
+[0x00400094]	0x14620001  bne $3, $2, 4 [taken1-0x00400094]; 66: bne   $3,$2 taken1    # taken branch: PC moves ahead by 8
+[0x00400098]	0x00100026  j 0x00400098 [stuck1]           ; 67: j     stuck1          # don't execute this instruction
+[0x0040009c]	0x1463fffe  bne $3, $3, -8 [stuck1-0x0040009c]; 68: bne   $3, $3, stuck1  # no take branch (failures get stuck)
+[0x004000a0]	0x04600001  bltz $3 4 [taken2-0x004000a0]   ; 70: bltz  $3, taken2      # taken branch: PC moves ahead by 8
+[0x004000a4]	0x00100029  j 0x004000a4 [stuck2]           ; 71: j     stuck2          # don't execute this instruction
+[0x004000a8]	0x0440fffb  bltz $2 -20 [stuck1-0x004000a8] ; 72: bltz  $2, stuck1      # no take branch (failures get stuk)
+[0x004000ac]	0x18000001  blez $0 4 [taken3-0x004000ac]   ; 74: blez  $0, taken3      # taken branch: PC moves ahead by 8
+[0x004000b0]	0x0010002c  j 0x004000b0 [stuck3]           ; 75: j     stuck3          # don't execute this instruction
+[0x004000b4]	0x1840fffe  blez $2 -8 [stuck3-0x004000b4]  ; 76: blez  $2, stuck3      # no take branch (failures get stuck)
+[0x004000b8]	0x18600001  blez $3 4 [taken4-0x004000b8]   ; 78: blez  $3, taken4      # taken branch: PC moves ahead by 8
+[0x004000bc]	0x0010002f  j 0x004000bc [stuck4]           ; 79: j     stuck4          # don't execute this instruction
+[0x004000c0]	0x1840fffe  blez $2 -8 [stuck4-0x004000c0]  ; 80: blez  $2, stuck4      # no take branch (failures get stuck)
+[0x004000c4]	0x04700001  bltzal $3 4 [taken5-0x004000c4] ; 82: bltzal  $3, taken5    # taken branch: PC moves ahead by 8
+[0x004000c8]	0x00100036  j 0x004000d8 [stuck6]           ; 83: j      stuck6         # don't execute this instruction
+[0x004000cc]	0x0450fffe  bltzal $2 -8 [stuck5-0x004000cc]; 84: bltzal   $2, stuck5   # no take branch (failures get stuck); 
+[0x004000d0]	0x001fc820  add $25, $0, $31                ; 85: add $25,$0,$31        # link address in r25
+[0x004000d4]	0x1c400001  bgtz $2 4 [taken6-0x004000d4]   ; 87: bgtz   $2, taken6     # taken branch: PC moves ahead by 8
+[0x004000d8]	0x00100036  j 0x004000d8 [stuck6]           ; 88: j      stuck6         # don't execute this instruction
+[0x004000dc]	0x1c60fffe  bgtz $3 -8 [stuck6-0x004000dc]  ; 89: bgtz   $3, stuck6     # no take branch (failures get stuck)
+[0x004000e0]	0x04010001  bgez $0 4 [taken7-0x004000e0]   ; 91: bgez   $0, taken7     # taken branch: PC moves ahead by 8
+[0x004000e4]	0x00100039  j 0x004000e4 [stuck7]           ; 92: j      stuck7         # don't execute this instruction
+[0x004000e8]	0x0461fffe  bgez $3 -8 [stuck7-0x004000e8]  ; 93: bgez   $3, stuck7     # no take branch (failures get stuck)
+[0x004000ec]	0x04410001  bgez $2 4 [taken8-0x004000ec]   ; 95: bgez   $2, taken8     # taken branch: PC moves ahead by 8
+[0x004000f0]	0x0010003c  j 0x004000f0 [stuck8]           ; 96: j      stuck8         # don't execute this instruction
+[0x004000f4]	0x0461fffe  bgez $3 -8 [stuck8-0x004000f4]  ; 97: bgez   $3, stuck8     # no take branch (failures get stuck)
+[0x004000f8]	0x04510001  bgezal $2 4 [taken9-0x004000f8] ; 99: bgezal  $2, taken9    # taken branch: PC moves ahead by 8
+[0x004000fc]	0x0010003f  j 0x004000fc [stuck9]           ; 100: j      stuck9         # don't execute this instruction
+[0x00400100]	0x0471fffe  bgezal $3 -8 [stuck9-0x00400100]; 101: bgezal  $3, stuck9    # no take branch (failures get stuck); 
+[0x00400104]	0x001fd020  add $26, $0, $31                ; 102: add $26,$0,$31        # link address in r26
+[0x00400108]	0xac110004  sw $17, 4($0)                   ; 107: sw  $17,4($0)
+[0x0040010c]	0xa411000a  sh $17, 10($0)                  ; 108: sh  $17,10($0)
+[0x00400110]	0xa011000b  sb $17, 11($0)                  ; 109: sb  $17,11($0)
+[0x00400114]	0x8c190004  lw $25, 4($0)                   ; 111: lw  $25,4($0)         # r25 = 0xffffffff
+[0x00400118]	0x941a0004  lhu $26, 4($0)                  ; 112: lhu $26,4($0)         # r26 = 0x0000ffff
+[0x0040011c]	0x901b0004  lbu $27, 4($0)                  ; 113: lbu $27,4($0)         # r27 = 0x000000ff
+[0x00400120]	0x841c0004  lh $28, 4($0)                   ; 114: lh  $28,4($0)         # r28 = 0xffffffff
+[0x00400124]	0x801d0004  lb $29, 4($0)                   ; 115: lb  $29,4($0)         # r29 = 0xffffffff
+[0x00400128]	0x0000f022  sub $30, $0, $0                 ; 117: sub $30,$0,$0         # r30 = 0
+[0x0040012c]	0x3c010002  lui $1, 2                       ; 118: lui   $1, 2           # r1 = 0x00020000
+[0x00400130]	0xafc10000  sw $1, 0($30)                   ; 123: sw $1, 0($30)                   
+[0x00400134]	0x23de0004  addi $30, $30, 4                ; 124: addi $30,$30,4                 
+[0x00400138]	0xafc20000  sw $2, 0($30)                   ; 125: sw $2, 0($30)                   
+[0x0040013c]	0x23de0004  addi $30, $30, 4                ; 126: addi $30,$30,4                 
+[0x00400140]	0xafc30000  sw $3, 0($30)                   ; 127: sw $3, 0($30)                   
+[0x00400144]	0x23de0004  addi $30, $30, 4                ; 128: addi $30,$30,4                 
+[0x00400148]	0xafc40000  sw $4, 0($30)                   ; 129: sw $4, 0($30)                   
+[0x0040014c]	0x23de0004  addi $30, $30, 4                ; 130: addi $30,$30,4                 
+[0x00400150]	0xafc50000  sw $5, 0($30)                   ; 131: sw $5, 0($30)                   
+[0x00400154]	0x23de0004  addi $30, $30, 4                ; 132: addi $30,$30,4                 
+[0x00400158]	0xafc60000  sw $6, 0($30)                   ; 133: sw $6, 0($30)                   
+[0x0040015c]	0x23de0004  addi $30, $30, 4                ; 134: addi $30,$30,4                 
+[0x00400160]	0xafc70000  sw $7, 0($30)                   ; 135: sw $7, 0($30)                   
+[0x00400164]	0x23de0004  addi $30, $30, 4                ; 136: addi $30,$30,4                 
+[0x00400168]	0xafc80000  sw $8, 0($30)                   ; 137: sw $8, 0($30)                   
+[0x0040016c]	0x23de0004  addi $30, $30, 4                ; 138: addi $30,$30,4                 
+[0x00400170]	0xafc90000  sw $9, 0($30)                   ; 139: sw $9, 0($30)                   
+[0x00400174]	0x23de0004  addi $30, $30, 4                ; 140: addi $30,$30,4                 
+[0x00400178]	0xafca0000  sw $10, 0($30)                  ; 141: sw $10, 0($30)                  
+[0x0040017c]	0x23de0004  addi $30, $30, 4                ; 142: addi $30,$30,4                 
+[0x00400180]	0xafcb0000  sw $11, 0($30)                  ; 143: sw $11, 0($30)                  
+[0x00400184]	0x23de0004  addi $30, $30, 4                ; 144: addi $30,$30,4                 
+[0x00400188]	0xafcc0000  sw $12, 0($30)                  ; 145: sw $12, 0($30)                  
+[0x0040018c]	0x23de0004  addi $30, $30, 4                ; 146: addi $30,$30,4                 
+[0x00400190]	0xafcd0000  sw $13, 0($30)                  ; 147: sw $13, 0($30)                  
+[0x00400194]	0x23de0004  addi $30, $30, 4                ; 148: addi $30,$30,4                 
+[0x00400198]	0xafce0000  sw $14, 0($30)                  ; 149: sw $14, 0($30)                  
+[0x0040019c]	0x23de0004  addi $30, $30, 4                ; 150: addi $30,$30,4                 
+[0x004001a0]	0xafcf0000  sw $15, 0($30)                  ; 151: sw $15, 0($30)                  
+[0x004001a4]	0x23de0004  addi $30, $30, 4                ; 152: addi $30,$30,4                 
+[0x004001a8]	0xafd00000  sw $16, 0($30)                  ; 153: sw $16, 0($30)                  
+[0x004001ac]	0x23de0004  addi $30, $30, 4                ; 154: addi $30,$30,4                 
+[0x004001b0]	0xafd10000  sw $17, 0($30)                  ; 155: sw $17, 0($30)                  
+[0x004001b4]	0x23de0004  addi $30, $30, 4                ; 156: addi $30,$30,4                 
+[0x004001b8]	0xafd20000  sw $18, 0($30)                  ; 157: sw $18, 0($30)                  
+[0x004001bc]	0x23de0004  addi $30, $30, 4                ; 158: addi $30,$30,4                 
+[0x004001c0]	0xafd30000  sw $19, 0($30)                  ; 159: sw $19, 0($30)                  
+[0x004001c4]	0x23de0004  addi $30, $30, 4                ; 160: addi $30,$30,4                 
+[0x004001c8]	0xafd40000  sw $20, 0($30)                  ; 161: sw $20, 0($30)                  
+[0x004001cc]	0x23de0004  addi $30, $30, 4                ; 162: addi $30,$30,4                 
+[0x004001d0]	0xafd50000  sw $21, 0($30)                  ; 163: sw $21, 0($30)                  
+[0x004001d4]	0x23de0004  addi $30, $30, 4                ; 164: addi $30,$30,4                 
+[0x004001d8]	0xafd60000  sw $22, 0($30)                  ; 165: sw $22, 0($30)                  
+[0x004001dc]	0x23de0004  addi $30, $30, 4                ; 166: addi $30,$30,4                 
+[0x004001e0]	0xafd70000  sw $23, 0($30)                  ; 167: sw $23, 0($30)                  
+[0x004001e4]	0x23de0004  addi $30, $30, 4                ; 168: addi $30,$30,4                 
+[0x004001e8]	0xafd80000  sw $24, 0($30)                  ; 169: sw $24, 0($30)                  
+[0x004001ec]	0x23de0004  addi $30, $30, 4                ; 170: addi $30,$30,4                 
+[0x004001f0]	0xafd90000  sw $25, 0($30)                  ; 171: sw $25, 0($30)                  
+[0x004001f4]	0x23de0004  addi $30, $30, 4                ; 172: addi $30,$30,4                 
+[0x004001f8]	0xafda0000  sw $26, 0($30)                  ; 173: sw $26, 0($30)                  
+[0x004001fc]	0x23de0004  addi $30, $30, 4                ; 174: addi $30,$30,4                 
+[0x00400200]	0xafdb0000  sw $27, 0($30)                  ; 175: sw $27, 0($30)                  
+[0x00400204]	0x23de0004  addi $30, $30, 4                ; 176: addi $30,$30,4  
+[0x00400208]	0xafdc0000  sw $28, 0($30)                  ; 177: sw $28, 0($30)                  
+[0x0040020c]	0x23de0004  addi $30, $30, 4                ; 178: addi $30,$30,4     
+[0x00400210]	0xafdd0000  sw $29, 0($30)                  ; 179: sw $29, 0($30)                  
+[0x00400214]	0x23de0004  addi $30, $30, 4                ; 180: addi $30,$30,4     
+[0x00400218]	0x0000f820  add $31, $0, $0                 ; 182: add$31,$0,$0          
+[0x0040021c]	0x03e00008  jr $31                          ; 183: jr   $31
+

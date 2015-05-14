@@ -1,0 +1,17 @@
+35
+~M 1 "i://csce611//mips_sram_s3//sim_src//board//sdram//mt48lc8m16a2/mt48lc8m16a2.v" 42 mt48lc8m16a2
+~A 1 "i://csce611//mips_sram_s3//sim_src//board//sdram//mt48lc8m16a2/mt48lc8m16a2.v" 42 mt48lc8m16a2
+~M 1 "./../../../sdram/source/command.v" 20 command
+~A 1 "./../../../sdram/source/command.v" 20 command
+~M 1 "./../../../sdram/source/altclklock.v" 37 altclklock
+~A 1 "./../../../sdram/source/altclklock.v" 37 altclklock
+~M 1 "./../../../sdram/source/control_interface.v" 20 control_interface
+~A 1 "./../../../sdram/source/control_interface.v" 20 control_interface
+~M 1 "./../../../sdram/source/sdr_data_path.v" 19 sdr_data_path
+~A 1 "./../../../sdram/source/sdr_data_path.v" 19 sdr_data_path
+~M 1 "./../../../sdram/source/pll1.v" 37 pll1
+~A 1 "./../../../sdram/source/pll1.v" 37 pll1
+~M 1 "./../../../sdram/source/sdr_sdram.v" 20 sdr_sdram
+~A 1 "./../../../sdram/source/sdr_sdram.v" 20 sdr_sdram
+~M 3 "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 3 sdr_sdram_tb
+~A 1 "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 3 sdr_sdram_tb

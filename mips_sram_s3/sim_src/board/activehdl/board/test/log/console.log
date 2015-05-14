@@ -1,0 +1,13 @@
+# Design: 1:36, 2010Äê10ÔÂ21ÈÕ
+# Design: Opening design "i:\CSCE611\mips_sram_s3\sim_src\board\activehdl\board\sdram\sdram.adf"
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'Test_Sync' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'cache' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'host' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'addr_decode' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'dma_controller' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Memory_Interface' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'PPS_Fetch' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'RegFile' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# Design: Design "sdram" has been set as active.

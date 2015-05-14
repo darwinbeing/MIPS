@@ -1,0 +1,55 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+BEGINPROGRESS Compiling...
+UPDATEPROGRESS 35
+MESSAGE "Pass 2. Processing instantiations."
+UPDATEPROGRESS 45
+MESSAGE "Pass 3. Processing behavioral statements."
+UPDATEPROGRESS 48
+UPDATEPROGRESS 51
+UPDATEPROGRESS 54
+UPDATEPROGRESS 57
+UPDATEPROGRESS 60
+UPDATEPROGRESS 64
+UPDATEPROGRESS 67
+UPDATEPROGRESS 70
+UPDATEPROGRESS 73
+UPDATEPROGRESS 76
+UPDATEPROGRESS 80
+WARNING VCP2822 "Incompatible types at task enable argument: 0<unsized decimal> -> bl<[3:0]bit>." "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 447 1
+WARNING VCP2822 "Incompatible types at task enable argument: 3<unsized decimal> -> cl<[1:0]bit>." "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 447 1
+WARNING VCP2822 "Incompatible types at task enable argument: 3<unsized decimal> -> rc<[1:0]bit>." "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 447 1
+WARNING VCP2822 "Incompatible types at task enable argument: 1<unsized decimal> -> pm<bit>." "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 447 1
+WARNING VCP2822 "Incompatible types at task enable argument: 1526<unsized decimal> -> ref<[15:0]bit>." "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 447 1
+WARNING VCP2822 "Incompatible types at task enable argument: 0<unsized decimal> -> address<[22:0]bit>." "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 451 1
+WARNING VCP2822 "Incompatible types at task enable argument: 3<unsized decimal> -> RCD<[1:0]bit>." "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 451 1
+WARNING VCP2822 "Incompatible types at task enable argument: 30<unsized decimal> -> length<[15:0]bit>." "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 451 1
+WARNING VCP2822 "Incompatible types at task enable argument: 0<unsized decimal> -> address<[22:0]bit>." "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 455 1
+WARNING VCP2822 "Incompatible types at task enable argument: 3<unsized decimal> -> CL<[1:0]bit>." "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 455 1
+WARNING VCP2822 "Incompatible types at task enable argument: 3<unsized decimal> -> RCD<[1:0]bit>." "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 455 1
+WARNING VCP2822 "Incompatible types at task enable argument: 30<unsized decimal> -> length<[15:0]bit>." "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 455 1
+WARNING VCP2822 "Incompatible types at task enable argument: 8<unsized decimal> -> bl<[3:0]bit>." "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 460 1
+WARNING VCP2822 "Incompatible types at task enable argument: 3<unsized decimal> -> cl<[1:0]bit>." "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 460 1
+WARNING VCP2822 "Incompatible types at task enable argument: 3<unsized decimal> -> rc<[1:0]bit>." "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 460 1
+WARNING VCP2822 "Incompatible types at task enable argument: 0<unsized decimal> -> pm<bit>." "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 460 1
+WARNING VCP2822 "Incompatible types at task enable argument: 1526<unsized decimal> -> ref<[15:0]bit>." "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 460 1
+WARNING VCP2822 "Incompatible types at task enable argument: 0<unsized decimal> -> address<[22:0]bit>." "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 464 1
+WARNING VCP2822 "Incompatible types at task enable argument: 3<unsized decimal> -> RCD<[1:0]bit>." "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 464 1
+WARNING VCP2822 "Incompatible types at task enable argument: 8<unsized decimal> -> BL<[3:0]bit>." "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 464 1
+WARNING VCP2822 "Incompatible types at task enable argument: 0<unsized decimal> -> address<[22:0]bit>." "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 467 1
+WARNING VCP2822 "Incompatible types at task enable argument: 3<unsized decimal> -> CL<[1:0]bit>." "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 467 1
+WARNING VCP2822 "Incompatible types at task enable argument: 3<unsized decimal> -> RCD<[1:0]bit>." "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 467 1
+WARNING VCP2822 "Incompatible types at task enable argument: 8<unsized decimal> -> BL<[3:0]bit>." "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 467 1
+WARNING VCP2822 "Incompatible types at task enable argument: 0<unsized decimal> -> address<[22:0]bit>." "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 471 1
+WARNING VCP2822 "Incompatible types at task enable argument: 3<unsized decimal> -> RCD<[1:0]bit>." "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 471 1
+WARNING VCP2822 "Incompatible types at task enable argument: 8<unsized decimal> -> BL<[3:0]bit>." "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 471 1
+WARNING VCP2822 "Incompatible types at task enable argument: 0<unsized decimal> -> address<[22:0]bit>." "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 475 1
+WARNING VCP2822 "Incompatible types at task enable argument: 3<unsized decimal> -> CL<[1:0]bit>." "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 475 1
+WARNING VCP2822 "Incompatible types at task enable argument: 3<unsized decimal> -> RCD<[1:0]bit>." "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 475 1
+WARNING VCP2822 "Incompatible types at task enable argument: 8<unsized decimal> -> BL<[3:0]bit>." "i://csce611//mips_sram_s3//sim_src//board//sdram//simulation/sdr_sdram_tb.v" 475 1
+WARNING VCP2853 "Incompatible types at assignment, implicit conversion will be used: .lowcycle<real> <- 0<unsized decimal>." "i:/csce611/mips_sram_s3/sim_src/board/sdram/source/altclklock.v" 96 1
+WARNING VCP2853 "Incompatible types at assignment, implicit conversion will be used: .highcycle<real> <- 0<unsized decimal>." "i:/csce611/mips_sram_s3/sim_src/board/sdram/source/altclklock.v" 97 1
+MESSAGE "ELB/DAG code generating."
+UPDATEPROGRESS 100
+MESSAGE "Top modules: sdr_sdram_tb."
+ENDPROGRESS Compiling...
+SUCCESS "Compile success 0 Errors 33 Warnings  Analysis time : 0[s]."

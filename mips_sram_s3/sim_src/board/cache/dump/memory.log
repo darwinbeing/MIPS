@@ -1,0 +1,4 @@
+2c2
+< // instance=/TestBench/DUT_RTL/m0/Bank0
+---
+> // instance=/TestBench/DUT_BEH/SRAM/sram

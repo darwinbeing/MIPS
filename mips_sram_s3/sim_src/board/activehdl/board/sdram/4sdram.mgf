@@ -1,0 +1,64 @@
+V 000044 56 1192 1287667339188 mt48lc8m16a2
+(_unit mt48lc8m16a2
+	(_specify
+		(_specparam tCH real 2.5)
+		(_specparam tCK real 7.0)
+		(_specparam tCMS real 1.5)
+		(_specparam tCKH real 0.8)
+		(_specparam tDS real 1.5)
+		(_specparam tCMH real 0.8)
+		(_specparam tAS real 1.5)
+		(_specparam tCL real 2.5)
+		(_specparam tDH real 0.8)
+		(_specparam tCKS real 1.5)
+		(_specparam tAH real 0.8)
+		(_tchk width 0 1057
+			(_port Clk (posedge))
+		)
+		(_tchk width 0 1058
+			(_port Clk (negedge))
+		)
+		(_tchk period 0 1059
+			(_port Clk (negedge))
+		)
+		(_tchk period 0 1060
+			(_port Clk (posedge))
+		)
+		(_tchk setuphold 0 1061
+			(_port Clk (posedge))
+			(_port Cke)
+		)
+		(_tchk setuphold 0 1062
+			(_port Clk (posedge))
+			(_port Cs_n)
+		)
+		(_tchk setuphold 0 1063
+			(_port Clk (posedge))
+			(_port Cas_n)
+		)
+		(_tchk setuphold 0 1064
+			(_port Clk (posedge))
+			(_port Ras_n)
+		)
+		(_tchk setuphold 0 1065
+			(_port Clk (posedge))
+			(_port We_n)
+		)
+		(_tchk setuphold 0 1066
+			(_port Clk (posedge))
+			(_port Addr)
+		)
+		(_tchk setuphold 0 1067
+			(_port Clk (posedge))
+			(_port Ba)
+		)
+		(_tchk setuphold 0 1068
+			(_port Clk (posedge))
+			(_port Dqm)
+		)
+		(_tchk setuphold 0 1069
+			(_port Dq_chk (posedge))
+			(_port Dq)
+		)
+	)
+)

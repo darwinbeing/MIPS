@@ -1,0 +1,169 @@
+-- Copyright (C) 1991-2010 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+
+-- Quartus II generated Memory Initialization File (.mif)
+
+WIDTH=8;
+DEPTH=2048;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+0 : 19;
+1 : 39;
+2 : 1d;
+3 : 20;
+4 : 00;
+5 : 00;
+6 : 00;
+7 : 00;
+8 : 1c;
+9 : 9c;
+10 : 99;
+11 : bd;
+12 : bf;
+13 : be;
+14 : b0;
+15 : a0;
+16 : bc;
+17 : c4;
+18 : c2;
+19 : 42;
+20 : 40;
+21 : 02;
+22 : c2;
+23 : 00;
+24 : c2;
+25 : 42;
+26 : 40;
+27 : 19;
+28 : 3c;
+29 : 39;
+30 : 00;
+31 : 20;
+32 : 00;
+33 : dc;
+34 : 40;
+35 : c2;
+36 : 42;
+37 : 40;
+38 : 19;
+39 : 3c;
+40 : 39;
+41 : 00;
+42 : 20;
+43 : 00;
+44 : dc;
+45 : 02;
+46 : d0;
+47 : c2;
+48 : c0;
+49 : bf;
+50 : be;
+51 : b0;
+52 : bd;
+53 : e0;
+54 : 1c;
+55 : 9c;
+56 : 99;
+57 : bd;
+58 : be;
+59 : a0;
+60 : c4;
+61 : c2;
+62 : 42;
+63 : 40;
+64 : 02;
+65 : c2;
+66 : 00;
+67 : 02;
+68 : c2;
+69 : 02;
+70 : c2;
+71 : 02;
+72 : c2;
+73 : c2;
+74 : c3;
+75 : 62;
+76 : 40;
+77 : c3;
+78 : c2;
+79 : 62;
+80 : c2;
+81 : c2;
+82 : c2;
+83 : c2;
+84 : c2;
+85 : c2;
+86 : 42;
+87 : c2;
+88 : 00;
+89 : c2;
+90 : c2;
+91 : c2;
+92 : c0;
+93 : be;
+94 : bd;
+95 : e0;
+96 : 1c;
+97 : 9c;
+98 : 99;
+99 : bd;
+100 : bf;
+101 : be;
+102 : b0;
+103 : a0;
+104 : bc;
+105 : 04;
+106 : 19;
+107 : 3c;
+108 : 39;
+109 : 00;
+110 : 20;
+111 : 00;
+112 : dc;
+113 : 40;
+114 : 04;
+115 : 19;
+116 : 3c;
+117 : 39;
+118 : 00;
+119 : 20;
+120 : 00;
+121 : dc;
+122 : 02;
+123 : 02;
+124 : c2;
+125 : 00;
+126 : c0;
+127 : c2;
+128 : c0;
+129 : bf;
+130 : be;
+131 : b0;
+132 : bd;
+133 : e0;
+134 : 00;
+135 : 00;
+136 : 00;
+137 : 00;
+138 : 00;
+139 : 00;
+140 : 00;
+141 : 00;
+142 : 00;
+143 : 00;
+144 : 00;
+END;

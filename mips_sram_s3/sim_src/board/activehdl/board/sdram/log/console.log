@@ -1,0 +1,183 @@
+alog $DSN/../../../sdram/source/compile_all.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP1000 compile_all.v : (4, 12): Can't open file: sdr_sdram_tb.v
+# Error: VCP1000 compile_all.v : (5, 12): Can't open file: mt48lc8m16a2.v
+# Compile failure 2 Errors 0 Warnings  Analysis time : 1[s].
+# ...done
+addfile -do {compile.do}
+# Adding file I:\CSCE611\mips_sram_s3\sim_src\board\activehdl\board\sdram\src\compile.do ... Done
+runscript -do "I:\CSCE611\mips_sram_s3\sim_src\board\activehdl\board\sdram\src\compile.do"
+# # Active-HDL design settings
+set dsnname sdram
+# Variable dsnname is read-only
+set dsn $curdir
+# Variable dsn is read-only
+log $dsn/log/vsimsa.log
+# Top level not selected
+alib sdram.lib
+# Warning: Library sdram already exists
+set worklib sdram
+# # end of Active-HDL design settings
+cd $dsn
+alog -v2k -dbg +incdir+\
+# Error: alog: not enough parameters
+# Error: Usage: alog [ -work|-w <library_name> ] [-u] [-v <library_source_file>] [-y <library directory>] [+libext+<suffix>] [+define+<macro name>[=<macro text>]] [+incdir+<directory>] [-incdir <directory>] [-f <file_name>] [-pli <PLI file;...>] [-l <lib_name>] [-c | -check] [+delay_mode_distributed] [+delay_mode_path] [+delay_mode_unit] [+delay_mode_zero] [-preserve] [-dbg] [-echo] [-msg <warning_level>] [-j] [-v95] [-v2k] [-protect <level>] [-refresh <library_name>] [-O(0|1|2|3)] [+accb] [+accr] [+accs] [+dacc] [-nosp] <file_name> ...
+"I:\CSCE611\mips_sram_s3\sim_src\board\sdram\source"+\
+# Error: DO_001 invalid command name I:\CSCE611\mips_sram_s3\sim_src\board\sdram\source
+# in file I:\CSCE611\mips_sram_s3\sim_src\board\activehdl\board\sdram\src\compile.do line 11
+# Error: Cannot run I:\CSCE611\mips_sram_s3\sim_src\board\activehdl\board\sdram\src\compile.do
+runscript -do "I:\CSCE611\mips_sram_s3\sim_src\board\activehdl\board\sdram\src\compile.do"
+# # Active-HDL design settings
+set dsnname sdram
+# Variable dsnname is read-only
+set dsn $curdir
+# Variable dsn is read-only
+log $dsn/log/vsimsa.log
+# Top level not selected
+alib sdram.lib
+# Warning: Library sdram already exists
+set worklib sdram
+# # end of Active-HDL design settings
+cd $dsn
+alog -v2k -dbg +incdir+\
+# Error: alog: not enough parameters
+# Error: Usage: alog [ -work|-w <library_name> ] [-u] [-v <library_source_file>] [-y <library directory>] [+libext+<suffix>] [+define+<macro name>[=<macro text>]] [+incdir+<directory>] [-incdir <directory>] [-f <file_name>] [-pli <PLI file;...>] [-l <lib_name>] [-c | -check] [+delay_mode_distributed] [+delay_mode_path] [+delay_mode_unit] [+delay_mode_zero] [-preserve] [-dbg] [-echo] [-msg <warning_level>] [-j] [-v95] [-v2k] [-protect <level>] [-refresh <library_name>] [-O(0|1|2|3)] [+accb] [+accr] [+accs] [+dacc] [-nosp] <file_name> ...
+"I:\CSCE611\mips_sram_s3\sim_src\board\sdram\source"+
+# Error: DO_001 invalid command name I:\CSCE611\mips_sram_s3\sim_src\board\sdram\source
+# in file I:\CSCE611\mips_sram_s3\sim_src\board\activehdl\board\sdram\src\compile.do line 11
+# Error: Cannot run I:\CSCE611\mips_sram_s3\sim_src\board\activehdl\board\sdram\src\compile.do
+runscript -do "I:\CSCE611\mips_sram_s3\sim_src\board\activehdl\board\sdram\src\compile.do"
+# # Active-HDL design settings
+set dsnname sdram
+# Variable dsnname is read-only
+set dsn $curdir
+# Variable dsn is read-only
+log $dsn/log/vsimsa.log
+# Top level not selected
+alib sdram.lib
+# Warning: Library sdram already exists
+set worklib sdram
+# # end of Active-HDL design settings
+cd $dsn
+alog -v2k -dbg +incdir+"I:\CSCE611\mips_sram_s3\sim_src\board\sdram\source"+"I:\CSCE611\mips_sram_s3\sim_src\board\sdram\simulation"+"I:\CSCE611\mips_sram_s3\sim_src\board\sdram\mt48lc8m16a2" I:/CSCE611/mips_sram_s3/sim_src/board/sdram/source/compile_all.v
+# Error: alog: +"I:\CSCE611\mips_sram_s3\sim_src\board\sdram\simulation": no such file
+# Error: alog: +"I:\CSCE611\mips_sram_s3\sim_src\board\sdram\mt48lc8m16a2": no such file
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP1010 Can't find the input file name: I:/CSCE611/mips_sram_s3/sim_src/board/activehdl/board/sdram/
+# Error: VCP1010 Can't find the input file name:  -O2 -p 
+# Error: VCP1010 Can't find the input file name: I://CSCE611//mips_sram_s3//sim_src//board//sdram//source/
+# Error: VCP1000 compile_all.v : (4, 12): Can't open file: sdr_sdram_tb.v
+# Error: VCP1000 compile_all.v : (5, 12): Can't open file: mt48lc8m16a2.v
+# Compile failure 5 Errors 0 Warnings  Analysis time : 0[s].
+# ...done
+# Error: DO_001 in file I:\CSCE611\mips_sram_s3\sim_src\board\activehdl\board\sdram\src\compile.do line 10
+# Error: Cannot run I:\CSCE611\mips_sram_s3\sim_src\board\activehdl\board\sdram\src\compile.do
+runscript -do "I:\CSCE611\mips_sram_s3\sim_src\board\activehdl\board\sdram\src\compile.do"
+# # Active-HDL design settings
+set dsnname sdram
+# Variable dsnname is read-only
+set dsn $curdir
+# Variable dsn is read-only
+log $dsn/log/vsimsa.log
+# Top level not selected
+alib sdram.lib
+# Warning: Library sdram already exists
+set worklib sdram
+# # end of Active-HDL design settings
+cd $dsn
+alog -v2k -dbg +incdir+I:\CSCE611\mips_sram_s3\sim_src\board\sdram\source+"I:\CSCE611\mips_sram_s3\sim_src\board\sdram\simulation"+"I:\CSCE611\mips_sram_s3\sim_src\board\sdram\mt48lc8m16a2" I:/CSCE611/mips_sram_s3/sim_src/board/sdram/source/compile_all.v
+# Error: alog: +"I:\CSCE611\mips_sram_s3\sim_src\board\sdram\mt48lc8m16a2": no such file
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP1010 Can't find the input file name: I:/CSCE611/mips_sram_s3/sim_src/board/activehdl/board/sdram/
+# Error: VCP1010 Can't find the input file name:  -O2 -p 
+# Error: VCP1010 Can't find the input file name: I://CSCE611//mips_sram_s3//sim_src//board//sdram//simulation/
+# Error: VCP1000 compile_all.v : (4, 12): Can't open file: sdr_sdram_tb.v
+# Error: VCP1000 compile_all.v : (5, 12): Can't open file: mt48lc8m16a2.v
+# Compile failure 5 Errors 0 Warnings  Analysis time : 1[s].
+# ...done
+# Error: DO_001 in file I:\CSCE611\mips_sram_s3\sim_src\board\activehdl\board\sdram\src\compile.do line 10
+# Error: Cannot run I:\CSCE611\mips_sram_s3\sim_src\board\activehdl\board\sdram\src\compile.do
+runscript -do "I:\CSCE611\mips_sram_s3\sim_src\board\activehdl\board\sdram\src\compile.do"
+# # Active-HDL design settings
+set dsnname sdram
+# Variable dsnname is read-only
+set dsn $curdir
+# Variable dsn is read-only
+log $dsn/log/vsimsa.log
+# Top level not selected
+alib sdram.lib
+# Warning: Library sdram already exists
+set worklib sdram
+# # end of Active-HDL design settings
+cd $dsn
+alog -v2k -dbg +incdir+I:\CSCE611\mips_sram_s3\sim_src\board\sdram\source+I:\CSCE611\mips_sram_s3\sim_src\board\sdram\simulation+I:\CSCE611\mips_sram_s3\sim_src\board\sdram\mt48lc8m16a2 I:/CSCE611/mips_sram_s3/sim_src/board/sdram/source/compile_all.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Warning: VCP2822 sdr_sdram_tb.v : (447, 1): Incompatible types at task enable argument: 0<unsized decimal> -> bl<[3:0]bit>.
+# Warning: VCP2822 sdr_sdram_tb.v : (447, 1): Incompatible types at task enable argument: 3<unsized decimal> -> cl<[1:0]bit>.
+# Warning: VCP2822 sdr_sdram_tb.v : (447, 1): Incompatible types at task enable argument: 3<unsized decimal> -> rc<[1:0]bit>.
+# Warning: VCP2822 sdr_sdram_tb.v : (447, 1): Incompatible types at task enable argument: 1<unsized decimal> -> pm<bit>.
+# Warning: VCP2822 sdr_sdram_tb.v : (447, 1): Incompatible types at task enable argument: 1526<unsized decimal> -> ref<[15:0]bit>.
+# Warning: VCP2822 sdr_sdram_tb.v : (451, 1): Incompatible types at task enable argument: 0<unsized decimal> -> address<[22:0]bit>.
+# Warning: VCP2822 sdr_sdram_tb.v : (451, 1): Incompatible types at task enable argument: 3<unsized decimal> -> RCD<[1:0]bit>.
+# Warning: VCP2822 sdr_sdram_tb.v : (451, 1): Incompatible types at task enable argument: 30<unsized decimal> -> length<[15:0]bit>.
+# Warning: VCP2822 sdr_sdram_tb.v : (455, 1): Incompatible types at task enable argument: 0<unsized decimal> -> address<[22:0]bit>.
+# Warning: VCP2822 sdr_sdram_tb.v : (455, 1): Incompatible types at task enable argument: 3<unsized decimal> -> CL<[1:0]bit>.
+# Warning: VCP2822 sdr_sdram_tb.v : (455, 1): Incompatible types at task enable argument: 3<unsized decimal> -> RCD<[1:0]bit>.
+# Warning: VCP2822 sdr_sdram_tb.v : (455, 1): Incompatible types at task enable argument: 30<unsized decimal> -> length<[15:0]bit>.
+# Warning: VCP2822 sdr_sdram_tb.v : (460, 1): Incompatible types at task enable argument: 8<unsized decimal> -> bl<[3:0]bit>.
+# Warning: VCP2822 sdr_sdram_tb.v : (460, 1): Incompatible types at task enable argument: 3<unsized decimal> -> cl<[1:0]bit>.
+# Warning: VCP2822 sdr_sdram_tb.v : (460, 1): Incompatible types at task enable argument: 3<unsized decimal> -> rc<[1:0]bit>.
+# Warning: VCP2822 sdr_sdram_tb.v : (460, 1): Incompatible types at task enable argument: 0<unsized decimal> -> pm<bit>.
+# Warning: VCP2822 sdr_sdram_tb.v : (460, 1): Incompatible types at task enable argument: 1526<unsized decimal> -> ref<[15:0]bit>.
+# Warning: VCP2822 sdr_sdram_tb.v : (464, 1): Incompatible types at task enable argument: 0<unsized decimal> -> address<[22:0]bit>.
+# Warning: VCP2822 sdr_sdram_tb.v : (464, 1): Incompatible types at task enable argument: 3<unsized decimal> -> RCD<[1:0]bit>.
+# Warning: VCP2822 sdr_sdram_tb.v : (464, 1): Incompatible types at task enable argument: 8<unsized decimal> -> BL<[3:0]bit>.
+# Warning: VCP2822 sdr_sdram_tb.v : (467, 1): Incompatible types at task enable argument: 0<unsized decimal> -> address<[22:0]bit>.
+# Warning: VCP2822 sdr_sdram_tb.v : (467, 1): Incompatible types at task enable argument: 3<unsized decimal> -> CL<[1:0]bit>.
+# Warning: VCP2822 sdr_sdram_tb.v : (467, 1): Incompatible types at task enable argument: 3<unsized decimal> -> RCD<[1:0]bit>.
+# Warning: VCP2822 sdr_sdram_tb.v : (467, 1): Incompatible types at task enable argument: 8<unsized decimal> -> BL<[3:0]bit>.
+# Warning: VCP2822 sdr_sdram_tb.v : (471, 1): Incompatible types at task enable argument: 0<unsized decimal> -> address<[22:0]bit>.
+# Warning: VCP2822 sdr_sdram_tb.v : (471, 1): Incompatible types at task enable argument: 3<unsized decimal> -> RCD<[1:0]bit>.
+# Warning: VCP2822 sdr_sdram_tb.v : (471, 1): Incompatible types at task enable argument: 8<unsized decimal> -> BL<[3:0]bit>.
+# Warning: VCP2822 sdr_sdram_tb.v : (475, 1): Incompatible types at task enable argument: 0<unsized decimal> -> address<[22:0]bit>.
+# Warning: VCP2822 sdr_sdram_tb.v : (475, 1): Incompatible types at task enable argument: 3<unsized decimal> -> CL<[1:0]bit>.
+# Warning: VCP2822 sdr_sdram_tb.v : (475, 1): Incompatible types at task enable argument: 3<unsized decimal> -> RCD<[1:0]bit>.
+# Warning: VCP2822 sdr_sdram_tb.v : (475, 1): Incompatible types at task enable argument: 8<unsized decimal> -> BL<[3:0]bit>.
+# Warning: VCP2853 altclklock.v : (96, 1): Incompatible types at assignment, implicit conversion will be used: .lowcycle<real> <- 0<unsized decimal>.
+# Warning: VCP2853 altclklock.v : (97, 1): Incompatible types at assignment, implicit conversion will be used: .highcycle<real> <- 0<unsized decimal>.
+# ELB/DAG code generating.
+# Top modules: sdr_sdram_tb.
+# Compile success 0 Errors 33 Warnings  Analysis time : 0[s].
+# ...done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'sdr_sdram' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'control_interface' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'command' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.2 [s].
+asim -advdataflow  -retry 3  sdr_sdram_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'sdr_sdram' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'control_interface' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'command' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.1 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 132615 kB (elbread=1071 elab2=131481 kernel=63 sdf=0)
+# 9:23, 2010Äê10ÔÂ21ÈÕ
+# Simulation has been initialized
+# Selected Top-Level: sdr_sdram_tb (sdr_sdram_tb)
+# Simulation has been stopped

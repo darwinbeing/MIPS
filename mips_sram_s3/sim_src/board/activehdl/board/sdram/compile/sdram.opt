@@ -1,0 +1,1 @@
+ -u "C:\Program Files\Aldec\Active-HDL 6.2\bin/systf.dll" "I:\CSCE611\mips_sram_s3\sim_src\board\sdram\source\compile_all.v"  -k 100  -cs  -g 5  -l "I:\CSCE611\mips_sram_s3\sim_src\board\activehdl\board\sdram\compile\sdram.erf" -r -li "I:\CSCE611\mips_sram_s3\sim_src\board\activehdl\board\sdram\compile\sdram.epr" -p "I:\CSCE611\mips_sram_s3\sim_src\board\activehdl\board\sdram" 

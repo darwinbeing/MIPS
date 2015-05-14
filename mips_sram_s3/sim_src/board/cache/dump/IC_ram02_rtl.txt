@@ -1,0 +1,5 @@
+// memory data file (do not edit the following line - required for mem load use)
+// instance=/TestBench/DUT_RTL/ICache/DataRam_D02/DataRam
+// format=mti addressradix=d dataradix=h version=1.0 wordsperline=8
+ 0: c2 c3 00 c2 c2 c2 42 00
+ 8: c0 bd c2 c3 62 42 c3 62

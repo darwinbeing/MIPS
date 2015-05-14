@@ -1,0 +1,190 @@
+
+ld_bubble_sort:     file format elf32-tradbigmips
+
+Disassembly of section .init:
+
+00000000 <here-0x14>:
+   0:	3c190000 	lui	t9,0x0
+   4:	27390020 	addiu	t9,t9,32
+   8:	241d1ffc 	li	sp,8188
+   c:	0320f809 	jalr	t9
+  10:	00000000 	nop
+
+00000014 <here>:
+  14:	08000005 	j	14 <here>
+  18:	00000000 	nop
+Disassembly of section .text:
+
+00000020 <main>:
+  20:	3c1c0000 	lui	gp,0x0
+  24:	279c0270 	addiu	gp,gp,624
+  28:	0399e021 	addu	gp,gp,t9
+  2c:	27bdff98 	addiu	sp,sp,-104
+  30:	afbf0064 	sw	ra,100(sp)
+  34:	afbe0060 	sw	s8,96(sp)
+  38:	03a0f021 	move	s8,sp
+  3c:	afbc0010 	sw	gp,16(sp)
+  40:	afc00058 	sw	zero,88(s8)
+  44:	8fc20058 	lw	v0,88(s8)
+  48:	28420010 	slti	v0,v0,16
+  4c:	1040000c 	beqz	v0,80 <main+0x60>
+  50:	8fc20058 	lw	v0,88(s8)
+  54:	00021880 	sll	v1,v0,0x2
+  58:	27c20018 	addiu	v0,s8,24
+  5c:	00622021 	addu	a0,v1,v0
+  60:	2403000f 	li	v1,15
+  64:	8fc20058 	lw	v0,88(s8)
+  68:	00621023 	subu	v0,v1,v0
+  6c:	ac820000 	sw	v0,0(a0)
+  70:	8fc20058 	lw	v0,88(s8)
+  74:	24420001 	addiu	v0,v0,1
+  78:	afc20058 	sw	v0,88(s8)
+  7c:	1000fff1 	b	44 <main+0x24>
+  80:	27c40018 	addiu	a0,s8,24
+  84:	24050010 	li	a1,16
+  88:	3c190000 	lui	t9,0x0
+  8c:	033cc821 	addu	t9,t9,gp
+  90:	8f390020 	lw	t9,32(t9)
+  94:	00000000 	nop
+  98:	0320f809 	jalr	t9
+  9c:	00000000 	nop
+  a0:	8fdc0010 	lw	gp,16(s8)
+  a4:	afc00058 	sw	zero,88(s8)
+  a8:	8fc20058 	lw	v0,88(s8)
+  ac:	28420010 	slti	v0,v0,16
+  b0:	1040000e 	beqz	v0,ec <main+0xcc>
+  b4:	8fc20058 	lw	v0,88(s8)
+  b8:	00021880 	sll	v1,v0,0x2
+  bc:	27c20018 	addiu	v0,s8,24
+  c0:	00621021 	addu	v0,v1,v0
+  c4:	8c430000 	lw	v1,0(v0)
+  c8:	8fc20058 	lw	v0,88(s8)
+  cc:	10620003 	beq	v1,v0,dc <main+0xbc>
+  d0:	24020001 	li	v0,1
+  d4:	afc2005c 	sw	v0,92(s8)
+  d8:	10000005 	b	f0 <main+0xd0>
+  dc:	8fc20058 	lw	v0,88(s8)
+  e0:	24420001 	addiu	v0,v0,1
+  e4:	afc20058 	sw	v0,88(s8)
+  e8:	1000ffef 	b	a8 <main+0x88>
+  ec:	afc0005c 	sw	zero,92(s8)
+  f0:	8fc2005c 	lw	v0,92(s8)
+  f4:	03c0e821 	move	sp,s8
+  f8:	8fbf0064 	lw	ra,100(sp)
+  fc:	8fbe0060 	lw	s8,96(sp)
+ 100:	27bd0068 	addiu	sp,sp,104
+ 104:	03e00008 	jr	ra
+
+00000108 <swap>:
+ 108:	3c1c0000 	lui	gp,0x0
+ 10c:	279c0188 	addiu	gp,gp,392
+ 110:	0399e021 	addu	gp,gp,t9
+ 114:	27bdffe8 	addiu	sp,sp,-24
+ 118:	afbe0010 	sw	s8,16(sp)
+ 11c:	03a0f021 	move	s8,sp
+ 120:	afc40018 	sw	a0,24(s8)
+ 124:	afc5001c 	sw	a1,28(s8)
+ 128:	afc60020 	sw	a2,32(s8)
+ 12c:	8fc2001c 	lw	v0,28(s8)
+ 130:	00021880 	sll	v1,v0,0x2
+ 134:	8fc20018 	lw	v0,24(s8)
+ 138:	00621021 	addu	v0,v1,v0
+ 13c:	8c420000 	lw	v0,0(v0)
+ 140:	afc20008 	sw	v0,8(s8)
+ 144:	8fc2001c 	lw	v0,28(s8)
+ 148:	00021880 	sll	v1,v0,0x2
+ 14c:	8fc20018 	lw	v0,24(s8)
+ 150:	00622021 	addu	a0,v1,v0
+ 154:	8fc20020 	lw	v0,32(s8)
+ 158:	00021880 	sll	v1,v0,0x2
+ 15c:	8fc20018 	lw	v0,24(s8)
+ 160:	00621021 	addu	v0,v1,v0
+ 164:	8c420000 	lw	v0,0(v0)
+ 168:	ac820000 	sw	v0,0(a0)
+ 16c:	8fc20020 	lw	v0,32(s8)
+ 170:	00021880 	sll	v1,v0,0x2
+ 174:	8fc20018 	lw	v0,24(s8)
+ 178:	00621821 	addu	v1,v1,v0
+ 17c:	8fc20008 	lw	v0,8(s8)
+ 180:	ac620000 	sw	v0,0(v1)
+ 184:	03c0e821 	move	sp,s8
+ 188:	8fbe0010 	lw	s8,16(sp)
+ 18c:	27bd0018 	addiu	sp,sp,24
+ 190:	03e00008 	jr	ra
+
+00000194 <bubblesort>:
+ 194:	3c1c0000 	lui	gp,0x0
+ 198:	279c00fc 	addiu	gp,gp,252
+ 19c:	0399e021 	addu	gp,gp,t9
+ 1a0:	27bdffd0 	addiu	sp,sp,-48
+ 1a4:	afbf002c 	sw	ra,44(sp)
+ 1a8:	afbe0028 	sw	s8,40(sp)
+ 1ac:	03a0f021 	move	s8,sp
+ 1b0:	afbc0010 	sw	gp,16(sp)
+ 1b4:	afc40030 	sw	a0,48(s8)
+ 1b8:	afc50034 	sw	a1,52(s8)
+ 1bc:	8fc20034 	lw	v0,52(s8)
+ 1c0:	2442ffff 	addiu	v0,v0,-1
+ 1c4:	afc20018 	sw	v0,24(s8)
+ 1c8:	afc00020 	sw	zero,32(s8)
+ 1cc:	afc0001c 	sw	zero,28(s8)
+ 1d0:	8fc2001c 	lw	v0,28(s8)
+ 1d4:	8fc30018 	lw	v1,24(s8)
+ 1d8:	0043102a 	slt	v0,v0,v1
+ 1dc:	1040001e 	beqz	v0,258 <bubblesort+0xc4>
+ 1e0:	8fc2001c 	lw	v0,28(s8)
+ 1e4:	00021880 	sll	v1,v0,0x2
+ 1e8:	8fc20030 	lw	v0,48(s8)
+ 1ec:	00622021 	addu	a0,v1,v0
+ 1f0:	8fc2001c 	lw	v0,28(s8)
+ 1f4:	00021880 	sll	v1,v0,0x2
+ 1f8:	8fc20030 	lw	v0,48(s8)
+ 1fc:	00621021 	addu	v0,v1,v0
+ 200:	8c830000 	lw	v1,0(a0)
+ 204:	8c420004 	lw	v0,4(v0)
+ 208:	0043102a 	slt	v0,v0,v1
+ 20c:	1040000e 	beqz	v0,248 <bubblesort+0xb4>
+ 210:	8fc2001c 	lw	v0,28(s8)
+ 214:	24420001 	addiu	v0,v0,1
+ 218:	8fc40030 	lw	a0,48(s8)
+ 21c:	8fc5001c 	lw	a1,28(s8)
+ 220:	00403021 	move	a2,v0
+ 224:	3c190000 	lui	t9,0x0
+ 228:	033cc821 	addu	t9,t9,gp
+ 22c:	8f39001c 	lw	t9,28(t9)
+ 230:	00000000 	nop
+ 234:	0320f809 	jalr	t9
+ 238:	00000000 	nop
+ 23c:	8fdc0010 	lw	gp,16(s8)
+ 240:	24020001 	li	v0,1
+ 244:	afc20020 	sw	v0,32(s8)
+ 248:	8fc2001c 	lw	v0,28(s8)
+ 24c:	24420001 	addiu	v0,v0,1
+ 250:	afc2001c 	sw	v0,28(s8)
+ 254:	1000ffde 	b	1d0 <bubblesort+0x3c>
+ 258:	8fc20018 	lw	v0,24(s8)
+ 25c:	2442ffff 	addiu	v0,v0,-1
+ 260:	afc20018 	sw	v0,24(s8)
+ 264:	8fc20020 	lw	v0,32(s8)
+ 268:	10400001 	beqz	v0,270 <bubblesort+0xdc>
+ 26c:	1000ffd6 	b	1c8 <bubblesort+0x34>
+ 270:	03c0e821 	move	sp,s8
+ 274:	8fbf002c 	lw	ra,44(sp)
+ 278:	8fbe0028 	lw	s8,40(sp)
+ 27c:	27bd0030 	addiu	sp,sp,48
+ 280:	03e00008 	jr	ra
+ 284:	00000000 	nop
+ 288:	00000000 	nop
+ 28c:	00000000 	nop
+Disassembly of section .got:
+
+00000290 <_GLOBAL_OFFSET_TABLE_>:
+ 290:	00000000 	nop
+ 294:	80000000 	lb	zero,0(zero)
+ 298:	00000000 	nop
+ 29c:	00000000 	nop
+ 2a0:	00000000 	nop
+ 2a4:	00000000 	nop
+ 2a8:	00000000 	nop
+ 2ac:	00000108 	0x108
+ 2b0:	00000194 	0x194

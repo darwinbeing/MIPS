@@ -1,0 +1,787 @@
+<session jtag_chain="USB-Blaster [USB-0]" jtag_device="@1: EP2C35 (0x020B40DD)" sof_file="" top_level_entity="DE2_Top">
+  <display_tree gui_logging_enabled="0">
+    <display_branch instance="auto_signaltap_0" log="USE_GLOBAL_TEMP" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
+  </display_tree>
+  <instance entity_name="sld_signaltap" is_auto_node="yes" is_expanded="true" name="auto_signaltap_0" source_file="sld_signaltap.vhd">
+    <node_ip_info instance_id="0" mfg_id="110" node_id="0" version="6"/>
+    <position_info>
+      <single attribute="active tab" value="0"/>
+      <single attribute="data horizontal scroll position" value="0"/>
+      <single attribute="data vertical scroll position" value="0"/>
+      <single attribute="setup horizontal scroll position" value="0"/>
+      <single attribute="setup vertical scroll position" value="0"/>
+      <single attribute="zoom level denominator" value="1"/>
+      <single attribute="zoom level numerator" value="1"/>
+      <single attribute="zoom offset denominator" value="1"/>
+      <single attribute="zoom offset numerator" value="130945"/>
+    </position_info>
+    <signal_set global_temp="1" name="signal_set: 2010/10/08 17:31:29  #0">
+      <clock name="CLOCK_50" polarity="posedge" tap_mode="classic"/>
+      <config ram_type="M4K" reserved_data_nodes="0" reserved_storage_qualifier_nodes="0" reserved_trigger_nodes="0" sample_depth="128" trigger_in_enable="no" trigger_out_enable="no"/>
+      <top_entity/>
+      <signal_vec>
+        <trigger_input_vec>
+          <wire name="DataIn[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[16]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[17]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[18]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[19]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[20]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[21]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[22]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[23]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[24]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[25]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[26]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[27]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[28]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[29]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[30]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[31]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="KEY[0]" tap_mode="classic" type="input pin"/>
+          <wire name="KEY[1]" tap_mode="classic" type="input pin"/>
+          <wire name="KEY[2]" tap_mode="classic" type="input pin"/>
+          <wire name="KEY[3]" tap_mode="classic" type="input pin"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[16]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[17]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[18]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[19]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[20]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[21]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[22]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[23]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[24]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[25]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[26]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[27]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[28]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[29]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[30]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[31]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[0]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[10]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[11]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[12]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[13]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[14]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[15]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[16]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[17]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[18]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[19]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[1]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[20]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[21]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[22]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[23]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[24]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[25]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[26]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[27]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[28]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[29]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[2]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[30]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[31]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[3]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[4]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[5]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[6]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[7]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[8]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[9]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[0]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[10]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[11]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[12]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[13]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[14]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[15]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[16]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[17]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[18]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[19]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[1]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[20]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[21]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[22]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[23]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[24]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[25]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[26]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[27]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[28]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[29]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[2]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[30]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[31]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[3]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[4]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[5]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[6]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[7]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[8]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[9]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|isVGA_CTL_MMR" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|isVGA_POS_MMR" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|synchronizer:s0|Bregout" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|synchronizer:s1|Bregout" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|synchronizer:s2|Bregout" tap_mode="classic" type="combinatorial"/>
+        </trigger_input_vec>
+        <data_input_vec>
+          <wire name="DataIn[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[16]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[17]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[18]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[19]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[20]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[21]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[22]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[23]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[24]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[25]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[26]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[27]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[28]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[29]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[30]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[31]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="KEY[0]" tap_mode="classic" type="input pin"/>
+          <wire name="KEY[1]" tap_mode="classic" type="input pin"/>
+          <wire name="KEY[2]" tap_mode="classic" type="input pin"/>
+          <wire name="KEY[3]" tap_mode="classic" type="input pin"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[16]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[17]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[18]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[19]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[20]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[21]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[22]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[23]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[24]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[25]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[26]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[27]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[28]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[29]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[30]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[31]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[0]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[10]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[11]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[12]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[13]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[14]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[15]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[16]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[17]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[18]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[19]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[1]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[20]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[21]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[22]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[23]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[24]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[25]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[26]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[27]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[28]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[29]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[2]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[30]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[31]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[3]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[4]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[5]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[6]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[7]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[8]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[9]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[0]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[10]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[11]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[12]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[13]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[14]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[15]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[16]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[17]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[18]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[19]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[1]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[20]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[21]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[22]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[23]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[24]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[25]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[26]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[27]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[28]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[29]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[2]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[30]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[31]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[3]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[4]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[5]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[6]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[7]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[8]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[9]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|isVGA_CTL_MMR" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|isVGA_POS_MMR" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|synchronizer:s0|Bregout" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|synchronizer:s1|Bregout" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|synchronizer:s2|Bregout" tap_mode="classic" type="combinatorial"/>
+        </data_input_vec>
+        <storage_qualifier_input_vec>
+          <wire name="DataIn[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[16]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[17]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[18]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[19]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[20]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[21]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[22]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[23]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[24]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[25]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[26]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[27]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[28]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[29]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[30]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[31]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DataIn[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="KEY[0]" tap_mode="classic" type="input pin"/>
+          <wire name="KEY[1]" tap_mode="classic" type="input pin"/>
+          <wire name="KEY[2]" tap_mode="classic" type="input pin"/>
+          <wire name="KEY[3]" tap_mode="classic" type="input pin"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[16]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[17]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[18]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[19]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[20]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[21]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[22]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[23]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[24]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[25]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[26]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[27]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[28]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[29]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[30]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[31]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|PROC_DataOut[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[0]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[10]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[11]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[12]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[13]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[14]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[15]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[16]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[17]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[18]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[19]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[1]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[20]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[21]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[22]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[23]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[24]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[25]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[26]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[27]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[28]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[29]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[2]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[30]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[31]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[3]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[4]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[5]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[6]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[7]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[8]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[9]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[0]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[10]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[11]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[12]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[13]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[14]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[15]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[16]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[17]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[18]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[19]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[1]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[20]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[21]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[22]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[23]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[24]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[25]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[26]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[27]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[28]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[29]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[2]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[30]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[31]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[3]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[4]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[5]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[6]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[7]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[8]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|VGA_POS_MMR[9]" tap_mode="classic" type="register"/>
+          <wire name="VGA_Interface:VGA_Interface|isVGA_CTL_MMR" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|isVGA_POS_MMR" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|synchronizer:s0|Bregout" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|synchronizer:s1|Bregout" tap_mode="classic" type="combinatorial"/>
+          <wire name="VGA_Interface:VGA_Interface|synchronizer:s2|Bregout" tap_mode="classic" type="combinatorial"/>
+        </storage_qualifier_input_vec>
+      </signal_vec>
+      <presentation>
+        <data_view>
+          <bus is_signal_inverted="no" link="all" name="DataIn" order="lsb_to_msb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="DataIn[0]"/>
+            <net is_signal_inverted="no" name="DataIn[1]"/>
+            <net is_signal_inverted="no" name="DataIn[2]"/>
+            <net is_signal_inverted="no" name="DataIn[3]"/>
+            <net is_signal_inverted="no" name="DataIn[4]"/>
+            <net is_signal_inverted="no" name="DataIn[5]"/>
+            <net is_signal_inverted="no" name="DataIn[6]"/>
+            <net is_signal_inverted="no" name="DataIn[7]"/>
+            <net is_signal_inverted="no" name="DataIn[8]"/>
+            <net is_signal_inverted="no" name="DataIn[9]"/>
+            <net is_signal_inverted="no" name="DataIn[10]"/>
+            <net is_signal_inverted="no" name="DataIn[11]"/>
+            <net is_signal_inverted="no" name="DataIn[12]"/>
+            <net is_signal_inverted="no" name="DataIn[13]"/>
+            <net is_signal_inverted="no" name="DataIn[14]"/>
+            <net is_signal_inverted="no" name="DataIn[15]"/>
+            <net is_signal_inverted="no" name="DataIn[16]"/>
+            <net is_signal_inverted="no" name="DataIn[17]"/>
+            <net is_signal_inverted="no" name="DataIn[18]"/>
+            <net is_signal_inverted="no" name="DataIn[19]"/>
+            <net is_signal_inverted="no" name="DataIn[20]"/>
+            <net is_signal_inverted="no" name="DataIn[21]"/>
+            <net is_signal_inverted="no" name="DataIn[22]"/>
+            <net is_signal_inverted="no" name="DataIn[23]"/>
+            <net is_signal_inverted="no" name="DataIn[24]"/>
+            <net is_signal_inverted="no" name="DataIn[25]"/>
+            <net is_signal_inverted="no" name="DataIn[26]"/>
+            <net is_signal_inverted="no" name="DataIn[27]"/>
+            <net is_signal_inverted="no" name="DataIn[28]"/>
+            <net is_signal_inverted="no" name="DataIn[29]"/>
+            <net is_signal_inverted="no" name="DataIn[30]"/>
+            <net is_signal_inverted="no" name="DataIn[31]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="KEY" order="lsb_to_msb" radix="hex" state="collapse" type="input pin">
+            <net is_signal_inverted="no" name="KEY[0]"/>
+            <net is_signal_inverted="no" name="KEY[1]"/>
+            <net is_signal_inverted="no" name="KEY[2]"/>
+            <net is_signal_inverted="no" name="KEY[3]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[0]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[1]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[2]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[3]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[4]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[5]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[6]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[7]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[8]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[9]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[10]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[11]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[12]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[13]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[14]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[15]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[16]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[17]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[18]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[19]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[20]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[21]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[22]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[23]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[24]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[25]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[26]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[27]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[28]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[29]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[30]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[31]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="VGA_Interface:VGA_Interface|VGA_POS_MMR" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[0]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[1]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[2]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[3]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[4]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[5]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[6]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[7]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[8]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[9]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[10]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[11]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[12]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[13]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[14]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[15]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[16]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[17]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[18]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[19]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[20]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[21]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[22]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[23]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[24]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[25]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[26]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[27]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[28]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[29]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[30]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[31]"/>
+          </bus>
+          <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|synchronizer:s0|Bregout"/>
+          <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|synchronizer:s1|Bregout"/>
+          <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|synchronizer:s2|Bregout"/>
+          <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|isVGA_CTL_MMR"/>
+          <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|isVGA_POS_MMR"/>
+          <bus is_signal_inverted="no" link="all" name="VGA_Interface:VGA_Interface|PROC_DataOut" order="lsb_to_msb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[0]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[1]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[2]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[3]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[4]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[5]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[6]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[7]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[8]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[9]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[10]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[11]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[12]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[13]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[14]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[15]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[16]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[17]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[18]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[19]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[20]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[21]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[22]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[23]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[24]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[25]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[26]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[27]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[28]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[29]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[30]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[31]"/>
+          </bus>
+        </data_view>
+        <setup_view>
+          <bus is_signal_inverted="no" link="all" name="DataIn" order="lsb_to_msb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="DataIn[0]"/>
+            <net is_signal_inverted="no" name="DataIn[1]"/>
+            <net is_signal_inverted="no" name="DataIn[2]"/>
+            <net is_signal_inverted="no" name="DataIn[3]"/>
+            <net is_signal_inverted="no" name="DataIn[4]"/>
+            <net is_signal_inverted="no" name="DataIn[5]"/>
+            <net is_signal_inverted="no" name="DataIn[6]"/>
+            <net is_signal_inverted="no" name="DataIn[7]"/>
+            <net is_signal_inverted="no" name="DataIn[8]"/>
+            <net is_signal_inverted="no" name="DataIn[9]"/>
+            <net is_signal_inverted="no" name="DataIn[10]"/>
+            <net is_signal_inverted="no" name="DataIn[11]"/>
+            <net is_signal_inverted="no" name="DataIn[12]"/>
+            <net is_signal_inverted="no" name="DataIn[13]"/>
+            <net is_signal_inverted="no" name="DataIn[14]"/>
+            <net is_signal_inverted="no" name="DataIn[15]"/>
+            <net is_signal_inverted="no" name="DataIn[16]"/>
+            <net is_signal_inverted="no" name="DataIn[17]"/>
+            <net is_signal_inverted="no" name="DataIn[18]"/>
+            <net is_signal_inverted="no" name="DataIn[19]"/>
+            <net is_signal_inverted="no" name="DataIn[20]"/>
+            <net is_signal_inverted="no" name="DataIn[21]"/>
+            <net is_signal_inverted="no" name="DataIn[22]"/>
+            <net is_signal_inverted="no" name="DataIn[23]"/>
+            <net is_signal_inverted="no" name="DataIn[24]"/>
+            <net is_signal_inverted="no" name="DataIn[25]"/>
+            <net is_signal_inverted="no" name="DataIn[26]"/>
+            <net is_signal_inverted="no" name="DataIn[27]"/>
+            <net is_signal_inverted="no" name="DataIn[28]"/>
+            <net is_signal_inverted="no" name="DataIn[29]"/>
+            <net is_signal_inverted="no" name="DataIn[30]"/>
+            <net is_signal_inverted="no" name="DataIn[31]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="KEY" order="lsb_to_msb" radix="hex" state="collapse" type="input pin">
+            <net is_signal_inverted="no" name="KEY[0]"/>
+            <net is_signal_inverted="no" name="KEY[1]"/>
+            <net is_signal_inverted="no" name="KEY[2]"/>
+            <net is_signal_inverted="no" name="KEY[3]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[0]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[1]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[2]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[3]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[4]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[5]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[6]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[7]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[8]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[9]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[10]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[11]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[12]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[13]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[14]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[15]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[16]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[17]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[18]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[19]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[20]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[21]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[22]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[23]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[24]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[25]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[26]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[27]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[28]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[29]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[30]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_CTL_MMR[31]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="VGA_Interface:VGA_Interface|VGA_POS_MMR" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[0]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[1]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[2]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[3]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[4]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[5]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[6]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[7]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[8]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[9]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[10]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[11]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[12]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[13]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[14]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[15]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[16]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[17]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[18]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[19]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[20]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[21]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[22]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[23]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[24]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[25]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[26]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[27]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[28]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[29]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[30]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|VGA_POS_MMR[31]"/>
+          </bus>
+          <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|synchronizer:s0|Bregout"/>
+          <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|synchronizer:s1|Bregout"/>
+          <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|synchronizer:s2|Bregout"/>
+          <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|isVGA_CTL_MMR"/>
+          <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|isVGA_POS_MMR"/>
+          <bus is_signal_inverted="no" link="all" name="VGA_Interface:VGA_Interface|PROC_DataOut" order="lsb_to_msb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[0]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[1]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[2]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[3]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[4]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[5]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[6]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[7]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[8]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[9]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[10]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[11]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[12]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[13]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[14]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[15]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[16]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[17]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[18]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[19]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[20]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[21]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[22]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[23]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[24]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[25]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[26]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[27]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[28]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[29]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[30]"/>
+            <net is_signal_inverted="no" name="VGA_Interface:VGA_Interface|PROC_DataOut[31]"/>
+          </bus>
+        </setup_view>
+      </presentation>
+      <trigger CRC="8B0259FE" attribute_mem_mode="false" gap_record="true" global_temp="1" name="trigger: 2010/10/08 17:31:29  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="1" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="false" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_in="dont_care" trigger_out="active high" trigger_type="circular">
+        <power_up_trigger position="pre" storage_qualifier_disabled="no" trigger_in="dont_care" trigger_out="active high"/>
+        <events use_custom_flow_control="no">
+          <level enabled="yes" name="condition1" type="basic">'VGA_Interface:VGA_Interface|isVGA_CTL_MMR' == rising edge &amp;&amp; 'VGA_Interface:VGA_Interface|isVGA_POS_MMR' == rising edge
+            <power_up enabled="yes">
+            </power_up>
+            <op_node/>
+          </level>
+        </events>
+        <storage_qualifier_events>
+          <transitional>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            <pwr_up_transitional>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            </pwr_up_transitional>
+          </transitional>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+        </storage_qualifier_events>
+        <log>
+          <data global_temp="1" name="log: 2010/10/08 17:34:01  #0" power_up_mode="false" sample_depth="127" trigger_position="-1">11110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111100000101110000000110000000101111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111000001011100000001100000001011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000010111000000011000000010111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111</data>
+          <extradata>1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</extradata>
+        </log>
+      </trigger>
+    </signal_set>
+  </instance>
+  <mnemonics/>
+  <static_plugin_mnemonics/>
+  <global_info>
+    <single attribute="active instance" value="0"/>
+    <single attribute="lock mode" value="36110"/>
+    <single attribute="sof manager hidden" value="0"/>
+    <multi attribute="column width" size="23" value="34,34,357,74,68,70,88,88,98,98,88,88,110,101,101,101,101,101,101,101,101,107,78"/>
+    <multi attribute="window position" size="9" value="1447,831,497,264,0,50,155,0,1"/>
+  </global_info>
+</session>
